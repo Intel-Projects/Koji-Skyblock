@@ -1,0 +1,26 @@
+name: 'leap'
+mana: 50
+cooldown: 1
+frozen: 1
+damage: 350
+power: 1.5
+ability-damage:
+  sendMessage: false
+  base-damage: 350
+  ability-scaling: 1
+
+display-name:
+  text: '&6Ability: Leap &e&lRIGHT CLICK'
+  message: 'Leap'
+  display: true
+lore:
+  - '&7Leap into the air and deal'
+  - '&c%damage% &7damage to nearby enemies'
+  - '&7upon landing on the ground.'
+  - '&7Damaged enemies will also be'
+  - '&7frozen for &a%frozen% &7second.'
+variables:
+  damage:
+    default: '350'
+  frozen:
+    default: '1.0'

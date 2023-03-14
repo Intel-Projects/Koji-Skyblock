@@ -1,0 +1,31 @@
+texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWIxMjY4MTRmYzNmYTg0NmRhZDkzNGMzNDk2MjhhN2ExZGU1YjQxNTAyMWEwM2VmNDIxMWQ2MjUxNGQ1In19fQ==
+name: "BabyYeti"
+type: COMBAT
+
+epic:
+   abilities:
+      coldBreeze:
+         upgrade_per_level:
+            x: 0.5
+      iceShields:
+         upgrade_per_level:
+            x: 0.05
+   stats:
+      upgrade_per_level:
+         strength: 0.4
+         mana: 0.75
+legendary:
+   abilities:
+      coldBreeze:
+         upgrade_per_level:
+            x: 0.5
+      iceShields:
+         upgrade_per_level:
+            x: 0.75
+      yetiFury:
+         upgrade_per_level:
+            x: 1
+   stats:
+      upgrade_per_level:
+         strength: 0.4
+         mana: 0.75

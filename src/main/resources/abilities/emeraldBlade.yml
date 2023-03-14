@@ -1,0 +1,14 @@
+name: 'emeraldBlade'
+display-name:
+  text: '&6Ability: Emerald Blade'
+  display: true
+lore:
+  - '&7A powerful blade made from pure'
+  - '&2Emeralds&7. This blade becomes'
+  - '&7stronger as you carry more'
+  - '&6coins &7in your purse'
+  - ''
+  - '&7Current Damage Bonus: &a%damage%'
+variables:
+  damage:
+    default: '0.0'

@@ -1,0 +1,98 @@
+texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2U5NDE5ODdlODI1YTI0ZWE3YmFhZmFiOTgxOTM0NGI2YzI0N2M3NWM1NGE2OTE5ODdjZDI5NmJjMTYzYzI2MyJ9fX0=\
+name: "Bee"
+type: FARMING
+
+common:
+  abilities:
+    hive:
+      base:
+        x: 1
+        y: 1
+      upgrade_per_level:
+        x: 0.02
+        y: 0.02
+  stats:
+    base:
+      strength: 5
+    upgrade_per_level:
+      strength: 0.25
+      mana: 0.5
+      speed: 0.1
+uncommon:
+  abilities:
+    hive:
+      base:
+        x: 1
+        y: 1
+      upgrade_per_level:
+        x: 0.04
+        y: 0.04
+  stats:
+    base:
+      strength: 5
+    upgrade_per_level:
+      strength: 0.25
+      mana: 0.5
+      speed: 0.1
+rare:
+  abilities:
+    hive:
+      base:
+        x: 1
+        y: 1
+      upgrade_per_level:
+        x: 0.09
+        y: 0.07
+    busyBuzzBuzz:
+      upgrade_per_level:
+        x: 0.5
+  stats:
+    base:
+      strength: 5
+    upgrade_per_level:
+      strength: 0.25
+      mana: 0.5
+      speed: 0.1
+epic:
+  abilities:
+    hive:
+      base:
+        x: 1
+        y: 1
+      upgrade_per_level:
+        x: 0.14
+        y: 0.11
+    busyBuzzBuzz:
+      upgrade_per_level:
+        x: 1
+  stats:
+    base:
+      strength: 5
+    upgrade_per_level:
+      strength: 0.25
+      mana: 0.5
+      speed: 0.1
+legendary:
+  abilities:
+    hive:
+      base:
+        x: 1
+        y: 1
+      upgrade_per_level:
+        x: 0.18
+        y: 0.14
+    busyBuzzBuzz:
+      upgrade_per_level:
+        x: 1
+    weaponizedHoney:
+      base:
+        x: 5
+      upgrade_per_level:
+        x: 0.2
+  stats:
+    base:
+      strength: 5
+    upgrade_per_level:
+      strength: 0.25
+      mana: 0.5
+      speed: 0.1

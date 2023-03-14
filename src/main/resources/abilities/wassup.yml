@@ -1,0 +1,7 @@
+name: 'wassup'
+display-name:
+  text: '&6Ability: Wassup &e&lRIGHT CLICK'
+  display: true
+lore:
+  - "&7Let's you call &5Maddox&7, when"
+  - "&7he's not busy."

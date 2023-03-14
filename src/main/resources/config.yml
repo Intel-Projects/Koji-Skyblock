@@ -1,0 +1,457 @@
+# The exact messages it sends to player in these circumstances
+# (This will be removed once translation files are added)
+messages:
+   no_player: '&c&lYou are not a player'
+   no_permission: '&cYou do not have the permission to do that'
+   inventory_full: '&c&lYour inventory is full!'
+   not_a_pet: "&cThat's not a Pet what you are holding!"
+   unknown_rarity: '&cUnknown Rarity: '
+   unknown_pet_name: '&cUnknown Pet Name: '
+   not_valid_rarity: '&cPet cannot have rarity: '
+
+#-------------------------------------------------------------------------------------
+# If true, it resets the players stats to the base stats on join
+
+# If false, it sets the player stats to the MAX, which is why with it true,
+# it prevents players from relogging and gaining back all stats to full
+
+# Having it false pairs well if you automatically send the player to spawn on join
+
+# example:
+#  true:
+#    on-join: Health = 100/1200, Mana = 100/600
+#  false:
+#    on-join: Health = 1200/1200, Mana = 600/600
+
+set-to-base-stats-on-join: false
+#-------------------------------------------------------------------------------------
+
+# setting this to true will make it so every item dropped can be seen by everyone
+drops-visible-to-everyone: false
+
+# setting this to true will make it so everyone can see the drops of a mob
+# instead of just the person who killed it (assuming you have permission)
+drops-visible-to-non-killer: false
+
+# settings this to false will make it so when enemies drop items they won't
+# go straight to the inventory
+auto-pickup: true
+
+# self-explanatory, if it's on you lose coins on death
+lose-coins-on-death:
+   enabled: true
+   # your coins will be multiplied by this amount, and that's how much you lose
+   # ex: 100 * 0.50 = 50, you lose 50 coins
+   amount: 0.50
+
+# Setting this to false will disable the function of some abilities, but will
+# greatly improve performance. Right click ability functions will still work,
+# but some abilities or enchants WILL NOT work
+enable-generic-events: true
+
+player-data:
+   # settings to false will use mySQL connection
+   # if the database syntax below is correct
+   file-storage: true
+
+   # Only used if file-storage is false and syntax is correct
+   database:
+      host: localhost # host of database
+      port: 3306 # 3306 is default port for mySQL
+      database: database # name of the database. A database server can contain multiple databases
+      username: username
+      password: password
+
+   # These are the base stats a player spawns with upon creation of their player data
+   # Add any stats you want (separate spaces with "_")
+   base-stats:
+      mana: 100.0
+      health: 100.0
+      crit_chance: 30.0
+      crit_damage: 50.0
+      speed: 100.0
+      health_regen: 100.0
+
+   pets-visible-default: true
+   auto-pickup-message-default: true
+   has-item-drop-alert-default: true
+
+modules:
+
+   #-------------------------------- ITEM BUILDER -------------------------------
+   itembuilder:
+      enabled: true
+
+
+   #--------------------------------- REFORGING ---------------------------------
+   reforging:
+      enabled: true
+      # Self-explanatory, the cost for reforging items (for each rarity)
+      cost:
+         common: 250
+         uncommon: 500
+         rare: 1000
+         epic: 2500
+         legendary: 5000
+         mythic: 10000
+         divine: 15000
+         special: 25000
+         very_special: 50000
+
+   #--------------------------------- ACTIONBAR ---------------------------------
+   actionbar:
+      enabled: true
+      # If this is true, it sends ability use stuff to chat instead of actionbar
+      send-ability-to-chat: true
+
+   #--------------------------------- SCOREBOARD ---------------------------------
+   # Local Placeholders
+   # %localtime% = real world date
+   # %worldtime% = in game time (ex: 6:00 pm)
+   # %purse% = ur money :D
+   # %bits% = ur bits :D
+   scoreboard:
+      title: '&e&lSKYBLOCK'
+      normal:
+         enabled: true
+         text:
+            - '&7%localtime% &8Skyblock'
+            - ' '
+            - '&fSpring 10th'
+            - '&7%worldtime%'
+            - ' &f⏣ &7None'
+            - '  '
+            - '&fPurse: &6%purse%'
+            - '&fBits: &b%bits%'
+            - ''
+            - '&ewww.hypixel.net'
+      dragon:
+         enabled: true
+         text:
+            - '&7%localtime% &8Skyblock'
+            - ' '
+            - '&fSpring 10th'
+            - '&7%worldtime%'
+            - ' &f⏣ &7None'
+            - '  '
+            - '&fPurse: &6%purse%'
+            - '&fBits: &b%bits%'
+            - '   '
+            - '%kojiskyblock_draghealth%'
+            - '%kojiskyblock_dragdamage%'
+            - ''
+            - '&ewww.hypixel.net'
+      slayer:
+         enabled: true
+         text:
+            - '&7%localtime% &8Skyblock'
+            - ' '
+            - '&fSpring 10th'
+            - '&7%worldtime%'
+            - ' &f⏣ &7None'
+            - '  '
+            - '&fPurse: &6%purse%'
+            - '&fBits: &b%bits%'
+            - '   '
+            - '&fSlayer Quest'
+            - '%kojiskyblock_slayerquest%'
+            - '%kojiskyblock_slayerprogress%'
+            - ''
+            - '&ewww.hypixel.net'
+
+   #--------------------------------- ENCHANTS ---------------------------------
+
+   enchants:
+      enabled: true
+      enchant-table-enabled: true
+      enchantments:
+         bane_of_arthropods:
+            name: '&9Bane of Arthropods'
+            description:
+               - '&7Increases damage dealt to'
+               - '&7Spiders, Cave Spiders'
+               - '&7and Silverfish by &a%%%&7.'
+         big_brain:
+            name: '&9Big Brain'
+            description:
+               - '&7Grants &b+%%✎ Intelligence&7.'
+         critical:
+            name: '&9Critical'
+            description:
+               - '&7Increase &9☠ Crit Damage &7by'
+               - '&a%%%&7.'
+         cubism:
+            name: '&9Cubism'
+            description:
+               - '&7Increases damage dealt to'
+               - '&7Slimes, Magma Cubes, and'
+               - '&7Creepers by &a%%%&7.'
+         divine_gift:
+            name: '&9Divine Gift'
+            description:
+               - '&7Grants &b+%%✯ Magic Find&7.'
+         dragon_hunter:
+            name: '&9Dragon Hunter'
+            description:
+               - '&7Increases damage dealt to'
+               - '&7Ender Dragons by &a%%%&7.'
+         dragon_tracer:
+            name: '&9Dragon Tracer'
+            description:
+               - '&7Arrows home towards dragons if'
+               - '&7they are within &a%% &7blocks.'
+         ender_slayer:
+            name: '&9Ender Slayer'
+            description:
+               - '&7Increases damage dealt to'
+               - '&7Ender Dragons and'
+               - '&7Endermen by &a%%%&7.'
+         execute:
+            name: '&9Execute'
+            description:
+               - '&7Increases damage dealt by'
+               - '&a%%% &7for each percent of'
+               - '&7health missing on your target.'
+         experience:
+            name: '&9Experience'
+            description:
+               - '&7Grants a &a%%% &7chance for mobs'
+               - '&7and ores to drop double'
+               - '&7experience.'
+         fire_aspect:
+            name: '&9Fire Aspect'
+            description:
+               - '&7Ignites your enemies for &a%%s&7,'
+               - '&7dealing &a%1%% &7of your damage'
+               - '&7per second.'
+         first_strike:
+            name: '&9First Strike'
+            description:
+               - '&7Increases melee damage dealt by'
+               - '&a%%% &7for the first hit on a'
+               - '&7mob.'
+         giant_killer:
+            name: '&9Giant Killer'
+            description:
+               - '&7Increases damage dealt by &a%%%'
+               - '&7for each percent of extra'
+               - '&7health that your target has'
+               - '&7above you up to &a%1%%&7.'
+         growth:
+            name: '&9Growth'
+            description:
+               - '&7Grants &a+%% &c❤ Health&7.'
+         impaling:
+            name: '&9Impaling'
+            description:
+               - '&7Increases damage dealt to Sea'
+               - '&7Creatures by &a%%%&7.'
+         life_steal:
+            name: '&9Life Steal'
+            description:
+               - '&7Heals for &a%%% &7of your max'
+               - '&7health each time you hit a mob.'
+         power:
+            name: '&9Power'
+            description:
+               - '&7Increases bow damage by &a%%%&7.'
+         prosecute:
+            name: '&9Prosecute'
+            description:
+               - '&7Increases damage dealt by &a%%%'
+               - '&7for each percent of health'
+               - '&7your target has.'
+         protection:
+            name: '&9Protection'
+            description:
+               - '&7Grants &a+%% ❁ Defense&7.'
+         rejuvenate:
+            name: '&9Rejuvenate'
+            description:
+               - '&7Grants &c+%%❣ Health Regen'
+         sharpness:
+            name: '&9Sharpness'
+            description:
+               - '&7Increases melee damage dealt by'
+               - '&a%%%&7.'
+         smarty_pants:
+            name: '&9Smarty Pants'
+            description:
+               - '&7Grants &b+%%✎ Intelligence&7.'
+         smite:
+            name: '&9Smite'
+            description:
+               - '&7Increases damage dealt to'
+               - '&7Zombies, Zombie Pigmen,'
+               - '&7Skeletons and Withers'
+               - '&7by &a%%%&7.'
+         snipe:
+            name: '&9Snipe'
+            description:
+               - '&7Arrows deal &a+%%% &7damage for'
+               - '&7every &a10 &7blocks traveled.'
+         sugar_rush:
+            name: '&9Sugar Rush'
+            description:
+               - '&7Grants &a+%% &f✦ Speed&7.'
+         swarm:
+            name: '&d&lSwarm'
+            description:
+               - '&7Increases your damage by &c%%%'
+               - '&7for each enemy within &e10'
+               - '&7blocks. Maximum of &c10'
+               - '&7enemies.'
+         syphon:
+            name: '&9Syphon'
+            description:
+               - '&7Heals for &a%%% &7of your max'
+               - '&7health per &9100 ☠ Crit Damage'
+               - '&7you deal per hit, up to'
+               - '&91,000 ☠ Crit Damage&7.'
+         vampirism:
+            name: '&9Vampirism'
+            description:
+               - '&7Heals for &a%%% &7of your missing'
+               - '&7health whenever you kill an'
+               - '&7enemy.'
+         ultimate_wise:
+            name: '&d&lUltimate Wise'
+            description:
+               - '&7Reduces the ability mana cost of'
+               - '&7this item by &a%%%&7.'
+         vicious:
+            name: '&9Vicious'
+            description:
+               - '&7Grants &c+%%⫽ Ferocity&7.'
+
+         luck: #Not implemented
+            name: '&9Luck'
+            description:
+               - '&7Increases the chance for'
+               - '&7Monsters to drop their armor by'
+               - '&a%%%&7.'
+         scavenger: #Not implemented
+            name: '&9Scavenger'
+            description:
+               - '&7Scavenge &6%% Coins &7per'
+               - '&7monster level on kill.'
+         thunderlord: #Not implemented
+            name: '&9Thunderlord'
+            description:
+               - '&7Strikes a Monster with lightning'
+               - '&7every 3 consecutive hits,'
+               - '&7dealing &a%%% of your'
+               - '&7Strength as damage.'
+         chimera: #Not implemented
+            name: '&d&lChimera'
+            description:
+               - '&7Copies &a%%% &7of your active'
+               - "&7pet's stats."
+
+   #----------------------------------- PETS -----------------------------------
+   pets:
+      enabled: true
+      menu:
+         #When true, it will close the pet inventory when the player summons/changes pets
+         close-on-summon: true
+      xp_requirements: #XP requirements for pets (by rarity)
+         Lvl1: 0 0 0 0 0
+         Lvl2: 100 175 275 440 660
+         Lvl3: 110 190 300 490 730
+         Lvl4: 120 210 330 540 800
+         Lvl5: 130 230 360 600 880
+         Lvl6: 145 250 400 660 960
+         Lvl7: 160 275 440 730 1050
+         Lvl8: 175 300 490 800 1150
+         Lvl9: 190 330 540 880 1260
+         Lvl10: 210 360 600 960 1380
+         Lvl11: 230 400 660 1050 1510
+         Lvl12: 250 440 730 1150 1650
+         Lvl13: 275 490 800 1260 1800
+         Lvl14: 300 540 880 1380 1960
+         Lvl15: 330 600 960 1510 2130
+         Lvl16: 360 660 1050 1650 2310
+         Lvl17: 400 730 1150 1800 2500
+         Lvl18: 440 800 1260 1960 2700
+         Lvl19: 490 880 1380 2130 2920
+         Lvl20: 540 960 1510 2310 3160
+         Lvl21: 600 1050 1650 2500 3420
+         Lvl22: 660 1150 1800 2700 3700
+         Lvl23: 730 1260 1960 2920 4000
+         Lvl24: 800 1380 2130 3160 4350
+         Lvl25: 880 1510 2310 3420 4750
+         Lvl26: 960 1650 2500 3700 5200
+         Lvl27: 1050 1800 2700 4000 5700
+         Lvl28: 1150 1960 2920 4350 6300
+         Lvl29: 1260 2130 3160 4750 7000
+         Lvl30: 1380 2310 3420 5200 7800
+         Lvl31: 1510 2500 3700 5700 8700
+         Lvl32: 1650 2700 4000 6300 9700
+         Lvl33: 1800 2920 4350 7000 10800
+         Lvl34: 1960 3160 4750 7800 12000
+         Lvl35: 2130 3420 5200 8700 13300
+         Lvl36: 2310 3700 5700 9700 14700
+         Lvl37: 2500 4000 6300 10800 16200
+         Lvl38: 2700 4350 7000 12000 17800
+         Lvl39: 2920 4750 7800 13300 19500
+         Lvl40: 3160 5200 8700 14700 21300
+         Lvl41: 3420 5700 9700 16200 23200
+         Lvl42: 3700 6300 10800 17800 25200
+         Lvl43: 4000 7000 12000 19500 27400
+         Lvl44: 4350 7800 13300 21300 29800
+         Lvl45: 4750 8700 14700 23200 32400
+         Lvl46: 5200 9700 16200 25200 35200
+         Lvl47: 5700 10800 17800 27400 38200
+         Lvl48: 6300 12000 19500 29800 41400
+         Lvl49: 7000 13300 21300 32400 44800
+         Lvl50: 7800 14700 23200 35200 48400
+         Lvl51: 8700 16200 25200 38200 52200
+         Lvl52: 9700 17800 27400 41400 56200
+         Lvl53: 10800 19500 29800 44800 60400
+         Lvl54: 12000 21300 32400 48400 64800
+         Lvl55: 13300 23200 35200 52200 69400
+         Lvl56: 14700 25200 38200 56200 74200
+         Lvl57: 16200 27400 41400 60400 79200
+         Lvl58: 17800 29800 44800 64800 84700
+         Lvl59: 19500 32400 48400 69400 90700
+         Lvl60: 21300 35200 52200 74200 97200
+         Lvl61: 23200 38200 56200 79200 104200
+         Lvl62: 25200 41400 60400 84700 111700
+         Lvl63: 27400 44800 64800 90700 119700
+         Lvl64: 29800 48400 69400 97200 128200
+         Lvl65: 32400 52200 74200 104200 137200
+         Lvl66: 35200 56200 79200 111700 146700
+         Lvl67: 38200 60400 84700 119700 156700
+         Lvl68: 41400 64800 90700 128200 167700
+         Lvl69: 44800 69400 97200 137200 179700
+         Lvl70: 48400 74200 104200 146700 192700
+         Lvl71: 52200 79200 111700 156700 206700
+         Lvl72: 56200 84700 119700 167700 221700
+         Lvl73: 60400 90700 128200 179700 237700
+         Lvl74: 64800 97200 137200 192700 254700
+         Lvl75: 69400 104200 146700 206700 272700
+         Lvl76: 74200 111700 156700 221700 291700
+         Lvl77: 79200 119700 167700 237700 311700
+         Lvl78: 84700 128200 179700 254700 333700
+         Lvl79: 90700 137200 192700 272700 357700
+         Lvl80: 97200 146700 206700 291700 383700
+         Lvl81: 104200 156700 221700 311700 411700
+         Lvl82: 111700 167700 237700 333700 441700
+         Lvl83: 119700 179700 254700 357700 476700
+         Lvl84: 128200 192700 272700 383700 516700
+         Lvl85: 137200 206700 291700 411700 561700
+         Lvl86: 146700 221700 311700 441700 611700
+         Lvl87: 156700 237700 333700 476700 666700
+         Lvl88: 167700 254700 357700 516700 726700
+         Lvl89: 179700 272700 383700 561700 791700
+         Lvl90: 192700 291700 411700 611700 861700
+         Lvl91: 206700 311700 441700 666700 936700
+         Lvl92: 221700 333700 476700 726700 1016700
+         Lvl93: 237700 357700 516700 791700 1101700
+         Lvl94: 254700 383700 561700 861700 1191700
+         Lvl95: 272700 411700 611700 936700 1286700
+         Lvl96: 291700 441700 666700 1016700 1386700
+         Lvl97: 311700 476700 726700 1101700 1496700
+         Lvl98: 333700 516700 791700 1191700 1616700
+         Lvl99: 357700 561700 861700 1286700 1746700
+         Lvl100: 383700 611700 936700 1386700 1886700

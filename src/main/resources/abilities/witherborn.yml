@@ -1,0 +1,10 @@
+name: 'witherborn'
+display-name:
+  text: '&6Full Set Bonus: Witherborn'
+  display: true
+lore:
+  - "&7Spawns a wither minion every"
+  - "&e30 &7seconds up to a"
+  - "&7maximum &a1 &7wither. Your withers will"
+  - "&7travel to and explode nearby"
+  - "&7enemies."

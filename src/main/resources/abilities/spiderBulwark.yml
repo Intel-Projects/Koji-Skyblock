@@ -1,0 +1,9 @@
+name: 'spiderBulwark'
+display-name:
+  text: '&6Piece Bonus: Spider Bulwark'
+  display: true
+lore:
+  - '&7Kill Spiders to accumulate'
+  - '&7defense against them.'
+  - '&7Piece Bonus: &a+0Φ'
+  - '&7Next Upgrade: &a+0Φ &7(&ax&7/&cy&7)'

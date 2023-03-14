@@ -1,0 +1,6 @@
+name: 'radioactive'
+display-name:
+  text: '&6Extra Bonus: Radioactive'
+  display: true
+lore:
+  - '&c+1% Crit Damage &7per &c10 Strength&7.'

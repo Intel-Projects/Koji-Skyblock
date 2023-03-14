@@ -1,0 +1,9 @@
+name: 'instantTransmission'
+range: 8
+mana: 50
+display-name:
+  text: '&6Ability: Instant Transmission &e&lRIGHT CLICK'
+  message: 'Instant Transmission'
+  display: true
+lore:
+  - '&7Teleport &a8 block &7ahead of you'

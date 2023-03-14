@@ -1,0 +1,18 @@
+name: 'heatSeekingRose'
+cooldown: 1
+mana: 10
+max-distance: 20
+minimum-travel: 5
+display-name:
+  text: '&6Ability: Heat Seeking Rose &e&lRIGHT CLICK'
+  message: 'Heat Seeking Rose'
+  display: true
+lore:
+  - '&7Shoots a rose that ricochets'
+  - '&7between enemies, damaging up to'
+  - '&a3 &7of your foes! Damage'
+  - '&7multiplies as more enemies are'
+  - '&7hit.'
+extra-lore:
+  - '&7The mana cost of this item is'
+  - '&a10.0% &7of your maximum mana.'

@@ -1,0 +1,10 @@
+name: 'fireblast'
+mana: 150
+cooldown: 30
+display-name:
+  text: '&6Ability: Fireblast &e&lRIGHT CLICK'
+  message: 'Fireblast'
+  display: true
+lore:
+  - '&7Shoot 3 Fireballs in rapid'
+  - '&7succession in front of you!'

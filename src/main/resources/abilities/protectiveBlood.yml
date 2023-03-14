@@ -1,0 +1,9 @@
+name: 'protectiveBlood'
+display-name:
+  text: '&6Full Set Bonus: Protective Blood'
+  display: true
+lore:
+  - '&7Increase the defense of each'
+  - '&7armor piece by &a+1% '
+  - '&aDefense &7for each missing'
+  - '&7percent of HP.'

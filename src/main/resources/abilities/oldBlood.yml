@@ -1,0 +1,10 @@
+name: 'oldBlood'
+display-name:
+  text: '&6Full Set Bonus: Old Blood'
+  display: true
+lore:
+  - '&7Increases the strength of'
+  - '&9Growth&7, &9Protection&7,'
+  - '&9Feather Falling&7,&9 Sugar'
+  - '&9Rush&7, and &9True Protection'
+  - '&7while worn.'

@@ -1,0 +1,14 @@
+name: 'radiantOrb'
+display-name:
+  text: '&6Ability: Deploy'
+  message: 'Deploy'
+  display: true
+lore:
+  - '&7Place an orb for &a30s &7buffing'
+  - '&7up to &b5 &7players within &a18'
+  - '&7blocks.'
+  - '&8Costs 50% of max mana.'
+  - '&8Only one orb applies per player.'
+  - ''
+  - '&aOrb Buff: Radiant'
+  - '&7Heals &c1% &7of max &c❤ &7per second.'

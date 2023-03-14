@@ -1,0 +1,1549 @@
+##Uses item ids from here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+
+items:
+   0:
+      material: LEATHER_HELMET
+      color: BLACK
+      name: '&5Tarantula Helmet'
+      rarity: Epic
+      type: Helmet
+      stats:
+         health: 100
+         defense: 80
+         mana: 100
+      abilities:
+         - octodexterity
+         - spiderBulwark
+         - radioactive
+      allowEnchants: true
+      id: TARANTULA_HELMET
+   1:
+      material: LEATHER_CHESTPLATE
+      color: BLACK
+      name: '&5Tarantula Chestplate'
+      rarity: Epic
+      type: Chesplate
+      stats:
+         health: 120
+         defense: 100
+         mana: 100
+      abilities:
+         - octodexterity
+         - spiderBulwark
+         - radioactive
+      allowEnchants: true
+      id: TARANTULA_CHESTPLATE
+   2:
+      material: LEATHER_LEGGINGS
+      color: BLACK
+      name: '&5Tarantula Leggings'
+      rarity: Epic
+      type: Leggings
+      stats:
+         health: 60
+         defense: 20
+      abilities:
+         - octodexterity
+         - spiderBulwark
+      allowEnchants: true
+      id: TARANTULA_LEGGINGS
+   3:
+      material: LEATHER_BOOTS
+      color: BLACK
+      name: '&5Tarantula Boots'
+      rarity: Epic
+      type: Boots
+      stats:
+         health: 70
+         defense: 100
+         speed: 5
+         mana: 50
+      abilities:
+         - octodexterity
+         - spiderBulwark
+         - doubleJump
+      allowEnchants: true
+      id: TARANTULA_BOOTS
+   4:
+      material: PLAYER_HEAD
+      rarity: Legendary
+      texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2MzM2IxZTk2YjhiYTA3OGE5MWYwMDAyZDQ5MTljNjE1NTQzY2QwOTNjMmQ3MDlkOWFlZTlmNjI2ODEzNGMyYyJ9fX0='
+      name: "&6Storm's Helmet"
+      type: Helmet
+      extraType: Dungeon
+      stats:
+         gearscore: 565
+         health: 180
+         defense: 80
+         mana: 400
+      abilities:
+         - witherborn
+         - witherReduction
+      gemstones:
+         sapphire:
+            cost:
+               coins: 250000
+               gems:
+                  sapphire:
+                     flawless: 4
+         combat:
+            cost:
+               coins: 250000
+               gems:
+                  jasper:
+                     flawless: 1
+                  sapphire:
+                     flawless: 1
+                  ruby:
+                     flawless: 1
+                  amethyst:
+                     flawless: 1
+      allowEnchants: true
+      id: STORMS_HELMET
+   5:
+      material: LEATHER_CHESTPLATE
+      color: 0x1CD4E4
+      rarity: Legendary
+      name: "&6Storm's Chestplate"
+      type: Chestplate
+      extraType: Dungeon
+      stats:
+         gearscore: 650
+         health: 260
+         defense: 120
+         mana: 250
+      abilities:
+         - witherborn
+         - witherReduction
+      gemstones:
+         sapphire:
+            cost:
+               coins: 250000
+               gems:
+                  sapphire:
+                     flawless: 4
+         combat:
+            cost:
+               coins: 250000
+               gems:
+                  jasper:
+                     flawless: 1
+                  sapphire:
+                     flawless: 1
+                  ruby:
+                     flawless: 1
+                  amethyst:
+                     flawless: 1
+      allowEnchants: true
+      id: STORMS_CHESTPLATE
+   6:
+      material: LEATHER_LEGGINGS
+      color: 0x1CD4E4
+      name: "&6Storm's Leggings"
+      rarity: Legendary
+      type: Leggings
+      extraType: Dungeon
+      stats:
+         gearscore: 590
+         health: 230
+         defense: 105
+         mana: 250
+      abilities:
+         - witherborn
+         - witherReduction
+      gemstones:
+         sapphire:
+            cost:
+               coins: 250000
+               gems:
+                  sapphire:
+                     flawless: 4
+         combat:
+            cost:
+               coins: 250000
+               gems:
+                  jasper:
+                     flawless: 1
+                  sapphire:
+                     flawless: 1
+                  ruby:
+                     flawless: 1
+                  amethyst:
+                     flawless: 1
+      allowEnchants: true
+      id: STORMS_LEGGINGS
+   7:
+      material: LEATHER_BOOTS
+      color: 0x1CD4E4
+      name: "&6Storm's Boots"
+      rarity: Legendary
+      type: Boots
+      extraType: Dungeon
+      stats:
+         gearscore: 425
+         health: 145
+         defense: 65
+         mana: 250
+      abilities:
+         - witherborn
+         - witherReduction
+      gemstones:
+         sapphire:
+            cost:
+               coins: 250000
+               gems:
+                  sapphire:
+                     flawless: 4
+         combat:
+            cost:
+               coins: 250000
+               gems:
+                  jasper:
+                     flawless: 1
+                  sapphire:
+                     flawless: 1
+                  ruby:
+                     flawless: 1
+                  amethyst:
+                     flawless: 1
+      allowEnchants: true
+      id: STORMS_BOOTS
+   8:
+      material: PLAYER_HEAD
+      rarity: Legendary
+      texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2VkZTk1NDliZTczZDlhOWIyMzExYjQ1ZmY4ODcxNjFmMTFiYzU2MzYxYjk4MGNmN2M3MzczN2IyMjgwNDAwNCJ9fX0='
+      name: "&6Necron's Helmet"
+      type: Helmet
+      extraType: Dungeon
+      stats:
+         gearscore: 484
+         strength: 40
+         critdamage: 30
+         health: 180
+         defense: 100
+         mana: 30
+      abilities:
+         - witherborn
+         - witherReduction
+      gemstones:
+         sapphire:
+            cost:
+               coins: 250000
+               gems:
+                  sapphire:
+                     flawless: 2
+         combat:
+            cost:
+               coins: 250000
+               gems:
+                  jasper:
+                     flawless: 1
+                  sapphire:
+                     flawless: 1
+                  ruby:
+                     flawless: 1
+                  amethyst:
+                     flawless: 1
+      allowEnchants: true
+      id: NECRONS_HELMET
+   9:
+      material: LEATHER_CHESTPLATE
+      color: 0xE7413C
+      rarity: Legendary
+      name: "&6Necron's Chestplate"
+      type: Chestplate
+      extraType: Dungeon
+      stats:
+         gearscore: 634
+         strength: 40
+         critdamage: 30
+         health: 260
+         defense: 140
+         mana: 10
+      abilities:
+         - witherborn
+         - witherReduction
+      gemstones:
+         sapphire:
+            cost:
+               coins: 250000
+               gems:
+                  sapphire:
+                     flawless: 2
+         combat:
+            cost:
+               coins: 250000
+               gems:
+                  jasper:
+                     flawless: 1
+                  sapphire:
+                     flawless: 1
+                  ruby:
+                     flawless: 1
+                  amethyst:
+                     flawless: 1
+      allowEnchants: true
+      id: NECRONS_CHESTPLATE
+   10:
+      material: LEATHER_LEGGINGS
+      color: 0xE75C3C
+      name: "&6Necron's Leggings"
+      rarity: Legendary
+      type: Leggings
+      extraType: Dungeon
+      stats:
+         gearscore: 574
+         strength: 40
+         critdamage: 30
+         health: 230
+         defense: 125
+         mana: 10
+      abilities:
+         - witherborn
+         - witherReduction
+      gemstones:
+         sapphire:
+            cost:
+               coins: 250000
+               gems:
+                  sapphire:
+                     flawless: 2
+         combat:
+            cost:
+               coins: 250000
+               gems:
+                  jasper:
+                     flawless: 1
+                  sapphire:
+                     flawless: 1
+                  ruby:
+                     flawless: 1
+                  amethyst:
+                     flawless: 1
+      allowEnchants: true
+      id: NECRONS_LEGGINGS
+   11:
+      material: LEATHER_BOOTS
+      color: 0xE76E3C
+      name: "&6Necron's Boots"
+      rarity: Legendary
+      type: Boots
+      extraType: Dungeon
+      stats:
+         gearscore: 409
+         strength: 40
+         critdamage: 30
+         health: 145
+         defense: 85
+         mana: 10
+      abilities:
+         - witherborn
+         - witherReduction
+      gemstones:
+         sapphire:
+            cost:
+               coins: 250000
+               gems:
+                  sapphire:
+                     flawless: 2
+         combat:
+            cost:
+               coins: 250000
+               gems:
+                  jasper:
+                     flawless: 1
+                  sapphire:
+                     flawless: 1
+                  ruby:
+                     flawless: 1
+                  amethyst:
+                     flawless: 1
+      allowEnchants: true
+      id: NECRONS_BOOTS
+   12:
+      material: DIAMOND_SWORD
+      name: '&6Aspect of the Dragons'
+      rarity: Legendary
+      type: Sword
+      stats:
+         damage: 225
+         strength: 100
+         critchance: 1
+         critdamage: 50
+      abilities:
+         - dragonRage
+      gemstones:
+         jasper:
+            cost:
+               coins: 50000
+               gems:
+                  jasper:
+                     fine: 20
+      allowEnchants: true
+      id: ASPECT_OF_THE_DRAGONS
+   13:
+      material: BOW
+      name: "&6Runaan's Bow"
+      rarity: Legendary
+      type: Bow
+      stats:
+         damage: 160
+         strength: 50
+      abilities:
+         - tripleShot
+      allowEnchants: true
+      id: RUNAANS_BOW
+   14:
+      material: DIAMOND_SWORD
+      rarity: Rare
+      name: '&9Aspect of the End'
+      type: Sword
+      stats:
+         damage: 100
+         strength: 100
+      abilities:
+         - instantTransmission
+      gemstones:
+         sapphire:
+            unlocked: true
+      allowEnchants: true
+      id: ASPECT_OF_THE_END
+   15:
+      material: DIAMOND_SHOVEL
+      rarity: Epic
+      name: '&5Aspect of the Void'
+      type: Sword
+      stats:
+         damage: 120
+         strength: 100
+      abilities:
+         - instantTransmission
+      gemstones:
+         sapphire:
+            unlocked: true
+      allowEnchants: true
+      id: ASPECT_OF_THE_VOID
+   16:
+      material: IRON_SWORD
+      rarity: Legendary
+      name: '&6Hyperion'
+      type: Sword
+      extraType: Dungeon
+      stats:
+         gearscore: 615
+         damage: 290
+         strength: 150
+         mana: 350
+         ferocity: 30
+      abilities:
+         - hyperion
+         - witherImpact
+      gemstones:
+         sapphire:
+            cost:
+               coins: 250000
+               gems:
+                  sapphire:
+                     flawless: 4
+         combat:
+            cost:
+               coins: 250000
+               gems:
+                  jasper:
+                     flawless: 1
+                  sapphire:
+                     flawless: 1
+                  ruby:
+                     flawless: 1
+                  amethyst:
+                     flawless: 1
+      allowEnchants: true
+      id: HYPERION
+   17:
+      material: IRON_SWORD
+      rarity: Legendary
+      name: '&6Valkyrie'
+      type: Sword
+      extraType: Dungeon
+      stats:
+         gearscore: 505
+         damage: 270
+         strength: 145
+         mana: 60
+         ferocity: 80
+      abilities:
+         - valkyrie
+         - witherImpact
+      gemstones:
+         sapphire:
+            cost:
+               coins: 250000
+               gems:
+                  jasper:
+                     flawless: 2
+         combat:
+            cost:
+               coins: 250000
+               gems:
+                  jasper:
+                     flawless: 1
+                  sapphire:
+                     flawless: 1
+                  ruby:
+                     flawless: 1
+                  amethyst:
+                     flawless: 1
+      allowEnchants: true
+      id: VALKYRIE
+   18:
+      material: IRON_SWORD
+      rarity: Legendary
+      name: '&6Scylla'
+      type: Sword
+      extraType: Dungeon
+      stats:
+         gearscore: 527
+         damage: 270
+         strength: 150
+         critchance: 12
+         critdamage: 35
+         mana: 50
+         ferocity: 30
+      abilities:
+         - scylla
+         - witherImpact
+      gemstones:
+         combat:
+            slots: 2
+            cost:
+               coins: 250000
+               gems:
+                  jasper:
+                     flawless: 1
+                  sapphire:
+                     flawless: 1
+                  ruby:
+                     flawless: 1
+                  amethyst:
+                     flawless: 1
+      allowEnchants: true
+      id: SCYLLA
+   19:
+      material: IRON_SWORD
+      rarity: Legendary
+      name: '&6Astraea'
+      type: Sword
+      extraType: Dungeon
+      stats:
+         gearscore: 985
+         damage: 270
+         strength: 150
+         defense: 250
+         mana: 50
+         truedefense: 20
+         ferocity: 30
+      abilities:
+         - astraea
+         - witherImpact
+      gemstones:
+         defensive:
+            cost:
+               coins: 250000
+               gems:
+                  ruby:
+                     flawless: 1
+                  amethyst:
+                     flawless: 1
+         combat:
+            cost:
+               coins: 250000
+               gems:
+                  jasper:
+                     flawless: 1
+                  sapphire:
+                     flawless: 1
+                  ruby:
+                     flawless: 1
+                  amethyst:
+                     flawless: 1
+      allowEnchants: true
+      id: ASTRAEA
+   20:
+      material: IRON_SWORD
+      rarity: Legendary
+      name: "&6Necron's Blade (Unrefined)"
+      type: Sword
+      extraType: Dungeon
+      stats:
+         gearscore: 425
+         damage: 260
+         strength: 110
+         mana: 50
+         ferocity: 30
+      abilities:
+         - necronBlade
+      allowEnchants: true
+      id: NECRONS_BLADE
+   21:
+      material: DIAMOND_BOOTS
+      rarity: Legendary
+      name: '&6Developer Boots'
+      type: Boots
+      stats:
+         health: 69420
+         defense: 69420
+         mana: 69420
+      abilities:
+         - spiderBulwark
+         - radioactive
+         - doubleJump
+      gemstones:
+         universal:
+            amount: 5
+            unlocked: true
+      allowEnchants: true
+      id: DEVELOPER_BOOTS
+   22:
+      material: BLAZE_ROD
+      rarity: Rare
+      name: "&9Bonzo's Staff"
+      type: Sword
+      extraType: Dungeon
+      stats:
+         gearscore: 285
+         damage: 160
+         mana: 250
+      abilities:
+         - showtime
+      gemstones:
+         sapphire:
+            unlocked: true
+      allowEnchants: true
+      id: BONZOS_STAFF
+   23:
+      material: PLAYER_HEAD
+      rarity: Uncommon
+      name: "&aRadiant Power Orb"
+      texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FiNGM0ZDZlZTY5YmMyNGJiYTJiOGZhZjY3YjlmNzA0YTA2YjAxYWE5M2YzZWZhNmFlZjdhOTY5NmM0ZmVlZiJ9fX0="
+      abilities:
+         - radiantOrb
+      allowEnchants: false
+      id: RADIANT_POWER_ORB
+   24:
+      material: GOLDEN_SWORD
+      name: "&6Midas' Sword"
+      rarity: Legendary
+      type: Sword
+      stats:
+         damage: 150
+      abilities:
+         - swordGreed
+      gemstones:
+         jasper:
+            cost:
+               coins: 50000
+               gems:
+                  jasper:
+                     fine: 20
+         combat:
+            cost:
+               coins: 100000
+               gems:
+                  jasper:
+                     fine: 40
+                  sapphire:
+                     fine: 40
+                  ruby:
+                     fine: 40
+                  amethyst:
+                     fine: 40
+      allowEnchants: true
+      id: MIDAS_SWORD
+   25:
+      material: POPPY
+      name: '&6Flower of Truth'
+      rarity: Legendary
+      type: Sword
+      extraType: Dungeon
+      stats:
+         gearscore: 460
+         damage: 160
+         strength: 300
+      abilities:
+         - heatSeekingRose
+      gemstones:
+         jasper:
+            cost:
+               coins: 50000
+               gems:
+                  jasper:
+                     fine: 20
+      allowEnchants: true
+      id: FLOWER_OF_TRUE
+   26:
+      material: EMERALD
+      name: '&5Emerald Blade'
+      rarity: Epic
+      type: Sword
+      stats:
+         damage: 130
+      abilities:
+         - emeraldBlade
+      allowEnchants: true
+      id: EMERALD_BLADE
+   27:
+      texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjM3YTU5NmNkYzRiMTFhOTk0OGZmYTM4YzJhYTNjNjk0MmVmNDQ5ZWIwYTM5ODIyODFkM2E1YjVhMTRlZjZhZSJ9fX0=\'
+      name: '&6Protector Dragon Helmet'
+      rarity: Legendary
+      material: PLAYER_HEAD
+      type: Helmet
+      stats:
+         health: 70
+         defense: 135
+      abilities:
+         - protectiveBlood
+      gemstones:
+         amethyst:
+            cost:
+               coins: 50000
+               gems:
+                  amethyst:
+                     fine: 20
+      allowEnchants: true
+      id: PROTECTOR_DRAGON_HELMET
+   28:
+      name: '&6Protector Dragon Chestplate'
+      material: LEATHER_CHESTPLATE
+      rarity: Legendary
+      color: GRAY
+      type: Chestplate
+      stats:
+         health: 120
+         defense: 185
+      abilities:
+         - protectiveBlood
+      gemstones:
+         amethyst:
+            cost:
+               coins: 50000
+               gems:
+                  amethyst:
+                     fine: 20
+      allowEnchants: true
+      id: PROTECTOR_DRAGON_CHESTPLATE
+   29:
+      name: '&6Protector Dragon Leggings'
+      material: LEATHER_LEGGINGS
+      rarity: Legendary
+      color: GRAY
+      type: Leggings
+      stats:
+         health: 100
+         defense: 165
+      abilities:
+         - protectiveBlood
+      gemstones:
+         amethyst:
+            cost:
+               coins: 50000
+               gems:
+                  amethyst:
+                     fine: 20
+      allowEnchants: true
+      id: PROTECTOR_DRAGON_LEGGINGS
+   30:
+      name: '&6Protector Dragon Boots'
+      material: LEATHER_BOOTS
+      rarity: Legendary
+      color: GRAY
+      type: Boots
+      stats:
+         health: 60
+         defense: 115
+      abilities:
+         - protectiveBlood
+      gemstones:
+         amethyst:
+            cost:
+               coins: 50000
+               gems:
+                  amethyst:
+                     fine: 20
+      allowEnchants: true
+      id: PROTECTOR_DRAGON_BOOTS
+   31:
+      texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTllOWU1NjAwNDEwYzFkMDI1NDQ3NGE4MWZlY2ZiMzg4NWMxY2Y2ZjUwNDE5MGQ4NTZmMGVjN2M5ZjA1NWM0MiJ9fX0=\'
+      name: '&6Old Dragon Helmet'
+      material: PLAYER_HEAD
+      rarity: Legendary
+      type: Helmet
+      stats:
+         health: 90
+         defense: 110
+      abilities:
+         - oldBlood
+      gemstones:
+         defensive:
+            cost:
+               coins: 50000
+               gems:
+                  ruby:
+                     fine: 10
+                  amethyst:
+                     fine: 10
+      allowEnchants: true
+      id: OLD_DRAGON_HELMET
+   32:
+      name: '&6Old Dragon Chestplate'
+      material: LEATHER_CHESTPLATE
+      color: GRAY
+      rarity: Legendary
+      type: Chestplate
+      stats:
+         health: 150
+         defense: 160
+      abilities:
+         - oldBlood
+      gemstones:
+         defensive:
+            cost:
+               coins: 50000
+               gems:
+                  ruby:
+                     fine: 10
+                  amethyst:
+                     fine: 10
+      allowEnchants: true
+      id: OLD_DRAGON_CHESTPLATE
+   33:
+      name: '&6Old Dragon Leggings'
+      material: LEATHER_LEGGINGS
+      color: GRAY
+      rarity: Legendary
+      type: Leggings
+      stats:
+         health: 130
+         defense: 140
+      abilities:
+         - oldBlood
+      gemstones:
+         defensive:
+            cost:
+               coins: 50000
+               gems:
+                  ruby:
+                     fine: 10
+                  amethyst:
+                     fine: 10
+      allowEnchants: true
+      id: OLD_DRAGON_LEGGINGS
+   34:
+      name: '&6Old Dragon Boots'
+      material: LEATHER_BOOTS
+      color: GRAY
+      rarity: Legendary
+      type: Boots
+      stats:
+         health: 80
+         defense: 90
+      abilities:
+         - oldBlood
+      gemstones:
+         defensive:
+            cost:
+               coins: 50000
+               gems:
+                  ruby:
+                     fine: 10
+                  amethyst:
+                     fine: 10
+      allowEnchants: true
+      id: OLD_DRAGON_BOOTS
+   35:
+      texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjkyMmI1ZjhkNTU0Y2E5MjNmOTY4MzJhNWE0ZTkxNjliYzJjZGIzNjBhMmIwNmViZWMwOWI2YTZhZjQ2MThlMyJ9fX0=\'
+      name: '&6Unstable Dragon Helmet'
+      material: PLAYER_HEAD
+      rarity: Legendary
+      type: Helmet
+      stats:
+         critchance: 5
+         critdamage: 15
+         health: 70
+         defense: 110
+         mana: 25
+      abilities:
+         - unstableBlood
+      gemstones:
+         offensive:
+            cost:
+               coins: 50000
+               gems:
+                  jasper:
+                     fine: 10
+                  sapphire:
+                     fine: 10
+      allowEnchants: true
+      id: UNSTABLE_DRAGON_HELMET
+   36:
+      name: '&6Unstable Dragon Chestplate'
+      material: LEATHER_CHESTPLATE
+      color: PURPLE
+      rarity: Legendary
+      type: Chesplate
+      stats:
+         critchance: 5
+         critdamage: 15
+         health: 120
+         defense: 160
+      abilities:
+         - unstableBlood
+      gemstones:
+         offensive:
+            cost:
+               coins: 50000
+               gems:
+                  jasper:
+                     fine: 10
+                  sapphire:
+                     fine: 10
+      allowEnchants: true
+      id: UNSTABLE_DRAGON_CHESTPLATE
+   37:
+      name: '&6Unstable Dragon Leggings'
+      material: LEATHER_LEGGINGS
+      color: PURPLE
+      rarity: Legendary
+      type: Leggings
+      stats:
+         critchance: 5
+         critdamage: 15
+         health: 100
+         defense: 140
+      abilities:
+         - unstableBlood
+      gemstones:
+         offensive:
+            cost:
+               coins: 50000
+               gems:
+                  jasper:
+                     fine: 10
+                  sapphire:
+                     fine: 10
+      allowEnchants: true
+      id: UNSTABLE_DRAGON_LEGGINGS
+   38:
+      name: '&6Unstable Dragon Boots'
+      material: LEATHER_BOOTS
+      color: PURPLE
+      rarity: Legendary
+      type: Boots
+      stats:
+         critchance: 5
+         critdamage: 15
+         health: 60
+         defense: 90
+      abilities:
+         - unstableBlood
+      gemstones:
+         offensive:
+            cost:
+               coins: 50000
+               gems:
+                  jasper:
+                     fine: 10
+                  sapphire:
+                     fine: 10
+      allowEnchants: true
+      id: UNSTABLE_DRAGON_BOOTS
+   39:
+      texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWEyOTg0Y2YwN2M0OGRhOTcyNDgxNmE4ZmYwODY0YmM2OGJjZTY5NGNlOGJkNmRiMjExMmI2YmEwMzEwNzBkZSJ9fX0=\'
+      name: '&6Wise Dragon Helmet'
+      material: PLAYER_HEAD
+      rarity: Legendary
+      type: Helmet
+      stats:
+         health: 70
+         defense: 110
+         mana: 125
+      abilities:
+         - wiseBlood
+      gemstones:
+         sapphire:
+            cost:
+               coins: 50000
+               gems:
+                  sapphire:
+                     fine: 20
+      allowEnchants: true
+      id: WISE_DRAGON_HELMET
+   40:
+      name: '&6Wise Dragon Chestplate'
+      material: LEATHER_CHESTPLATE
+      color: AQUA
+      rarity: Legendary
+      type: Chestplate
+      stats:
+         health: 120
+         defense: 160
+         mana: 75
+      abilities:
+         - wiseBlood
+      gemstones:
+         sapphire:
+            cost:
+               coins: 50000
+               gems:
+                  sapphire:
+                     fine: 20
+      allowEnchants: true
+      id: WISE_DRAGON_CHESTPLATE
+   41:
+      name: '&6Wise Dragon Leggings'
+      material: LEATHER_LEGGINGS
+      color: AQUA
+      rarity: Legendary
+      type: Leggings
+      stats:
+         health: 100
+         defense: 140
+         mana: 75
+      abilities:
+         - wiseBlood
+      gemstones:
+         sapphire:
+            cost:
+               coins: 50000
+               gems:
+                  sapphire:
+                     fine: 20
+      allowEnchants: true
+      id: WISE_DRAGON_LEGGINGS
+   42:
+      name: '&6Wise Dragon Boots'
+      material: LEATHER_BOOTS
+      color: AQUA
+      rarity: Legendary
+      type: Boots
+      stats:
+         health: 60
+         defense: 90
+         mana: 75
+      abilities:
+         - wiseBlood
+      gemstones:
+         sapphire:
+            cost:
+               coins: 50000
+               gems:
+                  sapphire:
+                     fine: 20
+      allowEnchants: true
+      id: WISE_DRAGON_BOOTS
+   43:
+      texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWM0ODZhZjNiODgyNzY2ZTgyYTBiYzE2NjVmZjAyZWI2ZTg3M2I2ZTBkNzcxZjNhZGFiYzc1OWI3MjAyMjZhIn19fQ==\'
+      name: '&6Young Dragon Helmet'
+      material: PLAYER_HEAD
+      rarity: Legendary
+      type: Helmet
+      stats:
+         health: 70
+         defense: 110
+         speed: 20
+      abilities:
+         - youngBlood
+      gemstones:
+         combat:
+            cost:
+               coins: 50000
+               gems:
+                  jasper:
+                     fine: 5
+                  sapphire:
+                     fine: 5
+                  ruby:
+                     fine: 5
+                  amethyst:
+                     fine: 5
+      allowEnchants: true
+      id: YOUNG_DRAGON_HELMET
+   44:
+      name: '&6Young Dragon Chestplate'
+      material: LEATHER_CHESTPLATE
+      color: WHITE
+      rarity: Legendary
+      type: Chestplate
+      stats:
+         health: 120
+         defense: 160
+         speed: 20
+      abilities:
+         - youngBlood
+      gemstones:
+         combat:
+            cost:
+               coins: 50000
+               gems:
+                  jasper:
+                     fine: 5
+                  sapphire:
+                     fine: 5
+                  ruby:
+                     fine: 5
+                  amethyst:
+                     fine: 5
+      allowEnchants: true
+      id: YOUNG_DRAGON_CHESTPLATE
+   45:
+      name: '&6Young Dragon Leggings'
+      material: LEATHER_LEGGINGS
+      color: WHITE
+      rarity: Legendary
+      type: Leggings
+      stats:
+         health: 100
+         defense: 140
+         speed: 20
+      abilities:
+         - youngBlood
+      gemstones:
+         combat:
+            cost:
+               coins: 50000
+               gems:
+                  jasper:
+                     fine: 5
+                  sapphire:
+                     fine: 5
+                  ruby:
+                     fine: 5
+                  amethyst:
+                     fine: 5
+      allowEnchants: true
+      id: YOUNG_DRAGON_LEGGINGS
+   46:
+      name: '&6Young Dragon Boots'
+      material: LEATHER_BOOTS
+      color: WHITE
+      rarity: Legendary
+      type: Boots
+      stats:
+         health: 60
+         defense: 90
+         speed: 20
+      abilities:
+         - youngBlood
+      gemstones:
+         combat:
+            cost:
+               coins: 50000
+               gems:
+                  jasper:
+                     fine: 5
+                  sapphire:
+                     fine: 5
+                  ruby:
+                     fine: 5
+                  amethyst:
+                     fine: 5
+      allowEnchants: true
+      id: YOUNG_DRAGON_BOOTS
+   47:
+      texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWZkZTA5NjAzYjAyMjViOWQyNGE3M2EwZDNmM2UzYWYyOTA1OGQ0NDhjY2Q3Y2U1YzY3Y2QwMmZhYjBmZjY4MiJ9fX0=\'
+      name: '&6Strong Dragon Helmet'
+      material: PLAYER_HEAD
+      rarity: Legendary
+      type: Helmet
+      stats:
+         strength: 25
+         health: 70
+         defense: 110
+      abilities:
+         - strongBlood
+      gemstones:
+         jasper:
+            cost:
+               coins: 50000
+               gems:
+                  jasper:
+                     fine: 20
+      allowEnchants: true
+      id: STRONG_DRAGON_HELMET
+   48:
+      name: '&6Strong Dragon Chestplate'
+      material: LEATHER_CHESTPLATE
+      color: RED
+      rarity: Legendary
+      type: Chestplate
+      stats:
+         strength: 25
+         health: 120
+         defense: 160
+      abilities:
+         - strongBlood
+      gemstones:
+         jasper:
+            cost:
+               coins: 50000
+               gems:
+                  jasper:
+                     fine: 20
+      allowEnchants: true
+      id: STRONG_DRAGON_CHESTPLATE
+   49:
+      name: '&6Strong Dragon Leggings'
+      material: LEATHER_LEGGINGS
+      color: ORANGE
+      rarity: Legendary
+      type: Leggings
+      stats:
+         strength: 25
+         health: 100
+         defense: 140
+      abilities:
+         - strongBlood
+      gemstones:
+         jasper:
+            cost:
+               coins: 50000
+               gems:
+                  jasper:
+                     fine: 20
+      allowEnchants: true
+      id: STRONG_DRAGON_LEGGINGS
+   50:
+      name: '&6Strong Dragon Boots'
+      material: LEATHER_BOOTS
+      color: YELLOW
+      rarity: Legendary
+      type: Boots
+      stats:
+         strength: 25
+         health: 60
+         defense: 90
+      abilities:
+         - strongBlood
+      gemstones:
+         jasper:
+            cost:
+               coins: 50000
+               gems:
+                  jasper:
+                     fine: 20
+      allowEnchants: true
+      id: STRONG_DRAGON_BOOTS
+   51:
+      texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU1OGVmYmU2Njk3NjA5OWNmZDYyNzYwZDllMDUxNzBkMmJiOGY1MWU2ODgyOWFiOGEwNTFjNDhjYmM0MTVjYiJ9fX0=\'
+      name: '&6Superior Dragon Helmet'
+      material: PLAYER_HEAD
+      rarity: Legendary
+      type: Helmet
+      stats:
+         strength: 10
+         critchance: 2
+         critdamage: 10
+         health: 90
+         defense: 130
+         speed: 3
+         mana: 25
+      abilities:
+         - superiorBlood
+      gemstones:
+         combat:
+            cost:
+               coins: 50000
+               gems:
+                  jasper:
+                     fine: 5
+                  sapphire:
+                     fine: 5
+                  ruby:
+                     fine: 5
+                  amethyst:
+                     fine: 5
+      allowEnchants: true
+      id: SUPERIOR_DRAGON_HELMET
+   52:
+      name: '&6Superior Dragon Chestplate'
+      material: LEATHER_CHESTPLATE
+      color: YELLOW
+      rarity: Legendary
+      type: Chestplate
+      stats:
+         strength: 10
+         critchance: 2
+         critdamage: 10
+         health: 150
+         defense: 190
+         speed: 3
+         mana: 25
+      abilities:
+         - superiorBlood
+      gemstones:
+         combat:
+            cost:
+               coins: 50000
+               gems:
+                  jasper:
+                     fine: 5
+                  sapphire:
+                     fine: 5
+                  ruby:
+                     fine: 5
+                  amethyst:
+                     fine: 5
+      allowEnchants: true
+      id: SUPERIOR_DRAGON_CHESTPLATE
+   53:
+      name: '&6Superior Dragon Leggings'
+      material: LEATHER_LEGGINGS
+      color: YELLOW
+      rarity: Legendary
+      type: Leggings
+      stats:
+         strength: 10
+         critchance: 2
+         critdamage: 10
+         health: 130
+         defense: 170
+         speed: 3
+         mana: 25
+      abilities:
+         - superiorBlood
+      gemstones:
+         combat:
+            cost:
+               coins: 50000
+               gems:
+                  jasper:
+                     fine: 5
+                  sapphire:
+                     fine: 5
+                  ruby:
+                     fine: 5
+                  amethyst:
+                     fine: 5
+      allowEnchants: true
+      id: SUPERIOR_DRAGON_LEGGINGS
+   54:
+      name: '&6Superior Dragon Boots'
+      material: LEATHER_BOOTS
+      color: 0xCC3300
+      rarity: Legendary
+      type: Boots
+      stats:
+         strength: 10
+         critchance: 2
+         critdamage: 10
+         health: 80
+         defense: 110
+         speed: 3
+         mana: 25
+      abilities:
+         - superiorBlood
+      gemstones:
+         combat:
+            cost:
+               coins: 50000
+               gems:
+                  jasper:
+                     fine: 5
+                  sapphire:
+                     fine: 5
+                  ruby:
+                     fine: 5
+                  amethyst:
+                     fine: 5
+      allowEnchants: true
+      id: SUPERIOR_DRAGON_BOOTS
+   55:
+      texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDEzYWQ0ZmE0ODExOGQxMGExZWY0MmZkNmQ1ODU0NzIyMDNiZDg4YTk4YTA4N2FiNDMxODJhYTA0OTNlYTg0MiJ9fX0='
+      name: '&6Holy Dragon Helmet'
+      material: PLAYER_HEAD
+      rarity: Legendary
+      type: Helmet
+      stats:
+         health: 110
+         defense: 110
+      abilities:
+         - holyBlood
+      gemstones:
+         ruby:
+            cost:
+               coins: 50000
+               gems:
+                  ruby:
+                     fine: 20
+      allowEnchants: true
+      id: HOLY_DRAGON_HELMET
+   56:
+      name: '&6Holy Dragon Chestplate'
+      material: LEATHER_CHESTPLATE
+      color: 0x47D147
+      rarity: Legendary
+      type: Chestplate
+      stats:
+         health: 180
+         defense: 160
+      abilities:
+         - holyBlood
+      gemstones:
+         ruby:
+            cost:
+               coins: 50000
+               gems:
+                  ruby:
+                     fine: 20
+      allowEnchants: true
+      id: HOLY_DRAGON_CHESTPLATE
+   57:
+      name: '&6Holy Dragon Leggings'
+      material: LEATHER_LEGGINGS
+      color: 0x47D147
+      rarity: Legendary
+      type: Leggings
+      stats:
+         health: 155
+         defense: 140
+      abilities:
+         - holyBlood
+      gemstones:
+         ruby:
+            cost:
+               coins: 50000
+               gems:
+                  ruby:
+                     fine: 20
+      allowEnchants: true
+      id: HOLY_DRAGON_LEGGINGS
+   58:
+      name: '&6Holy Dragon Boots'
+      material: LEATHER_BOOTS
+      color: 0x47D147
+      rarity: Legendary
+      type: Leggings
+      stats:
+         health: 100
+         defense: 90
+      abilities:
+         - holyBlood
+      gemstones:
+         ruby:
+            cost:
+               coins: 50000
+               gems:
+                  ruby:
+                     fine: 20
+      allowEnchants: true
+      id: HOLY_DRAGON_BOOTS
+   59:
+      name: '&5Leaping Sword'
+      material: GOLDEN_SWORD
+      rarity: Epic
+      type: Sword
+      stats:
+         damage: 150
+         strength: 100
+         critdamage: 25
+      abilities:
+         - leap
+      allowEnchants: true
+      id: LEAPING_SWORD
+   60:
+      name: '&6Pigman Sword'
+      material: GOLDEN_SWORD
+      rarity: Legendary
+      type: Sword
+      stats:
+         damage: 200
+         strength: 100
+         critchance: 5
+         critdamage: 30
+         mana: 300
+      abilities:
+         - burningSouls
+      allowEnchants: true
+      id: PIGMAN_SWORD
+   61:
+      name: '&9Edible Mace'
+      material: MUTTON
+      rarity: Rare
+      type: Sword
+      stats:
+         damage: 125
+         strength: 25
+      abilities:
+         - meSmashHead
+      allowEnchants: true
+      id: EDIBLE_MACE
+   62:
+      name: '&5Armor of Magma Helmet'
+      material: LEATHER_HELMET
+      rarity: Epic
+      color: 0xF27FA5
+      type: Helmet
+      stats:
+         health: 50
+         defense: 15
+      abilities:
+         - absorb
+      allowEnchants: true
+      id: ARMOR_OF_MAGMA_HELMET
+   63:
+      name: '&5Armor of Magma Chestplate'
+      material: LEATHER_CHESTPLATE
+      rarity: Epic
+      color: 0xF27FA5
+      type: Chestplate
+      stats:
+         health: 100
+         defense: 30
+      abilities:
+         - absorb
+      allowEnchants: true
+      id: ARMOR_OF_MAGMA_CHESTPLATE
+   64:
+      name: '&5Armor of Magma Leggings'
+      material: LEATHER_LEGGINGS
+      rarity: Epic
+      color: 0xF27FA5
+      type: Leggings
+      stats:
+         health: 75
+         defense: 25
+      abilities:
+         - absorb
+      allowEnchants: true
+      id: ARMOR_OF_MAGMA_LEGGINGS
+   65:
+      name: '&5Armor of Magma Boots'
+      material: LEATHER_BOOTS
+      rarity: Epic
+      color: 0xF27FA5
+      type: Boots
+      stats:
+         health: 45
+         defense: 15
+      abilities:
+         - absorb
+      allowEnchants: true
+      id: ARMOR_OF_MAGMA_BOOTS
+   66:
+      name: '&5Hot Potato Book'
+      material: BOOK
+      rarity: Epic
+      enchantGlow: true
+      abilities:
+         - hotPotatoBook
+      id: HOT_POTATO_BOOK
+   67:
+      name: '&5Fuming Potato Book'
+      material: BOOK
+      rarity: Epic
+      enchantGlow: true
+      extraType: Dungeon Item
+      abilities:
+         - fumingPotatoBook
+      id: FUMING_POTATO_BOOK
+
+

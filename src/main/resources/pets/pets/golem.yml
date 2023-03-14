@@ -1,0 +1,33 @@
+texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkwOTFkNzllYTBmNTllZjdlZjk0ZDdiYmE2ZTVmMTdmMmY3ZDQ1NzJjNDRmOTBmNzZjNDgxOWE3MTQifX19
+name: "Golem"
+type: COMBAT
+
+epic:
+   abilities:
+      lastStand:
+         upgrade_per_level:
+            x: 0.3
+      ricochet:
+         upgrade_per_level:
+            x: 0.2
+   stats:
+      upgrade_per_level:
+         health: 1.5
+         strength: 0.5
+legendary:
+   abilities:
+      lastStand:
+         upgrade_per_level:
+            x: 0.3
+      ricochet:
+         upgrade_per_level:
+            x: 0.25
+      toss:
+         base:
+            x: 200
+         upgrade_per_level:
+            x: 3
+   stats:
+      upgrade_per_level:
+         health: 1.5
+         strength: 0.5

@@ -1,0 +1,9 @@
+name: 'absorb'
+display-name:
+  text: '&6Full Set Bonus: Absorb'
+  display: true
+lore:
+  - '&7Every &910 Magma Cubes killed'
+  - '&7gives the wearer &a+1 &cHealth'
+  - '&7and &bIntelligence &7while'
+  - '&7wearing the set. Max 200 each.'

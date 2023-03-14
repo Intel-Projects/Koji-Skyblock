@@ -1,0 +1,8 @@
+name: 'youngBlood'
+display-name:
+  text: '&6Full Set Bonus: Young Blood'
+  display: true
+lore:
+  - '&7Gain &a+70 &7Walk Speed while'
+  - '&7you are above &a50% &7HP.'
+  - '&8+100 Walk Speed Cap'

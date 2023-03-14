@@ -1,0 +1,9 @@
+name: 'holyBlood'
+display-name:
+  text: '&6Full Set Bonus: Holy Blood'
+  display: true
+lore:
+  - '&7Increases the natural health'
+  - '&7regeneration of you and all'
+  - '&7players in a &a6 &7block radius'
+  - '&7by &a3x&7.'

@@ -1,0 +1,71 @@
+texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTE3YmZmYzE5NzJhY2Q3ZjNiNGE4ZjQzYjViNmM3NTM0Njk1YjhmZDYyNjc3ZTAzMDZiMjgzMTU3NGIifX19\
+name: "Rabbit"
+type: FARMING
+
+common:
+  abilities:
+    happyFeet:
+      upgrade_per_level:
+        x: 0.3
+  stats:
+    base:
+      health: 1
+    upgrade_per_level:
+      speed: 0.2
+      health: 1
+uncommon:
+  abilities:
+    happyFeet:
+      upgrade_per_level:
+        x: 0.4
+  stats:
+    base:
+      health: 1
+    upgrade_per_level:
+      speed: 0.2
+      health: 1
+rare:
+  abilities:
+    happyFeet:
+      upgrade_per_level:
+        x: 0.4
+    farmingWisdomBoost:
+      upgrade_per_level:
+        x: 0.25
+  stats:
+    base:
+      health: 1
+    upgrade_per_level:
+      speed: 0.2
+      health: 1
+epic:
+  abilities:
+    happyFeet:
+      upgrade_per_level:
+        x: 0.5
+    farmingWisdomBoost:
+      upgrade_per_level:
+        x: 0.3
+  stats:
+    base:
+      health: 1
+    upgrade_per_level:
+      speed: 0.2
+      health: 1
+legendary:
+  abilities:
+    happyFeet:
+      upgrade_per_level:
+        x: 0.5
+    farmingWisdomBoost:
+      upgrade_per_level:
+        x: 0.3
+    efficientFarming:
+      upgrade_per_level:
+        x: 0.3
+  stats:
+    base:
+      health: 1
+    upgrade_per_level:
+      speed: 0.2
+      health: 1

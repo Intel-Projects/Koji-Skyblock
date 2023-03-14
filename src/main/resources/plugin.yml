@@ -1,0 +1,128 @@
+name: KojiSkyblock
+version: '1.2.3'
+main: koji.skyblock.Skyblock
+prefix: KojiSB
+authors: [ Koji ]
+description: Skyblock Reimagined!
+softdepend: [ PlaceholderAPI, Citizens ]
+depend: [ ProtocolLib, Vault, KojiDevKit ]
+api-version: 1.13
+commands:
+  ci:
+    description: 'Opens custom items menu'
+    permission: 'koji.skyblock.ci'
+  ksbreload:
+    description: 'Reloads stuff like menus'
+    permission: 'koji.skyblock.reload'
+  petgive:
+    description: 'Gives the player a pet'
+    permission: 'koji.skyblock.pet.give'
+  pet:
+    description: 'Opens the pet menu'
+    permission: 'koji.skyblock.pet'
+    aliases: [ pets, petsmenu, petmenu ]
+  petsetlevel:
+    description: "Sets a pet's level"
+    permission: 'koji.skyblock.pet.setlevel'
+  petskin:
+    description: 'Gives the player a pet skin'
+    permission: 'koji.skyblock.pet.skin'
+  enchants:
+    description: 'Adds or gets an enchant to/from the item being held'
+    permission: 'koji.skyblock.enchants'
+  attribute:
+    description: 'Sets an attribute of the player'
+    permission: 'koji.skyblock.attribute'
+  pickupstash:
+    description: 'Picks up items from the item stash'
+    permission: 'koji.skyblock.pickupstash'
+  clearstash:
+    description: 'Clears your item stash'
+    permission: 'koji.skyblock.clearstash'
+  reforge:
+    description: 'Opens menu to reforge an item'
+    permission: 'koji.skyblock.reforge'
+  addstat:
+    description: 'Add stats to an item'
+    permission: 'koji.skyblock.addstat'
+  itembuilder:
+    description: 'Opens menu to build a KSB item from scratch'
+    permission: 'koji.skyblock.itembuilder'
+  resetdata:
+    description: 'Reset the player data of a player'
+    permission: 'koji.skyblock.resetdata'
+  setrarity:
+    description: 'Sets the rarity of an item'
+    permission: 'koji.skyblock.setrarity'
+permissions:
+  koji.skyblock.pet:
+    default: true
+  koji.skyblock.pickupstash:
+    default: true
+  koji.skyblock.clearstash:
+    default: true
+
+  koji.skyblock.itembuilder:
+    default: op
+  koji.skyblock.resetdata:
+    default: op
+
+  koji.skyblock.autopickup:
+    default: true
+
+  koji.skyblock.enchants.swarm:
+    default: true
+  koji.skyblock.enchants.ultimatewise:
+    default: true
+  koji.skyblock.enchants.baneofarthropods:
+    default: true
+  koji.skyblock.enchants.bigbrain:
+    default: true
+  koji.skyblock.enchants.critical:
+    default: true
+  koji.skyblock.enchants.cubism:
+    default: true
+  koji.skyblock.enchants.divinegift:
+    default: true
+  koji.skyblock.enchants.dragonhunter:
+    default: true
+  koji.skyblock.enchants.dragontracer:
+    default: true
+  koji.skyblock.enchants.enderslayer:
+    default: true
+  koji.skyblock.enchants.execute:
+    default: true
+  koji.skyblock.enchants.experience:
+    default: true
+  koji.skyblock.enchants.fireaspect:
+    default: true
+  koji.skyblock.enchants.firststrike:
+    default: true
+  koji.skyblock.enchants.giantkiller:
+    default: true
+  koji.skyblock.enchants.growth:
+    default: true
+  koji.skyblock.enchants.impaling:
+    default: true
+  koji.skyblock.enchants.lifesteal:
+    default: true
+  koji.skyblock.enchants.power:
+    default: true
+  koji.skyblock.enchants.protection:
+    default: true
+  koji.skyblock.enchants.rejuvenate:
+    default: true
+  koji.skyblock.enchants.sharpness:
+    default: true
+  koji.skyblock.enchants.smartypants:
+    default: true
+  koji.skyblock.enchants.smite:
+    default: true
+  koji.skyblock.enchants.snipe:
+    default: true
+  koji.skyblock.enchants.sugarrush:
+    default: true
+  koji.skyblock.enchants.vampirism:
+    default: true
+  koji.skyblock.enchants.vicious:
+    default: true

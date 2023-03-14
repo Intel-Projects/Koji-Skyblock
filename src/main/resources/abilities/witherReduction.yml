@@ -1,0 +1,7 @@
+name: 'witherReduction'
+display-name:
+  text: '&6Wither Reduction'
+  display: false
+lore:
+  - "&7Reduces the damage you take"
+  - "&7from withers by &c10%&7."

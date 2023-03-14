@@ -1,0 +1,56 @@
+texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmVhYjc1ZWFhNWM5ZjJjNDNhMGQyM2NmZGNlMzVmNGRmNjMyZTk4MTUwMDE4NTAzNzczODVmN2IyZjAzOWNlMSJ9fX0="
+name: "Enderman"
+type: COMBAT
+
+common:
+  abilities:
+    enderian:
+      upgrade_per_level:
+        x: 0.1
+  stats:
+    upgrade_per_level:
+      crit_damage: 0.75
+uncommon:
+  abilities:
+    enderian:
+      upgrade_per_level:
+        x: 0.2
+  stats:
+    upgrade_per_level:
+      crit_damage: 0.75
+rare:
+  abilities:
+    enderian:
+      upgrade_per_level:
+        x: 0.2
+    teleportSavvy:
+      upgrade_per_level:
+        x: 0.4
+  stats:
+    upgrade_per_level:
+      crit_damage: 0.75
+epic:
+  abilities:
+    enderian:
+      upgrade_per_level:
+        x: 0.3
+    teleportSavvy:
+      upgrade_per_level:
+        x: 0.5
+  stats:
+    upgrade_per_level:
+      crit_damage: 0.75
+legendary:
+  abilities:
+    enderian:
+      upgrade_per_level:
+        x: 0.3
+    teleportSavvy:
+      upgrade_per_level:
+        x: 0.5
+    zealotMadness:
+      upgrade_per_level:
+        x: 0.25
+  stats:
+    upgrade_per_level:
+      crit_damage: 0.75

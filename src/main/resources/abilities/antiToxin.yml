@@ -1,0 +1,6 @@
+name: 'antiToxin'
+display-name:
+  text: '&6Extra Bonus: Anti-Toxin'
+  display: true
+lore:
+  - '&7Immune to healing reduction.'

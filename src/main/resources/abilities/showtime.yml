@@ -1,0 +1,11 @@
+name: 'showtime'
+mana: 100
+damage: 1000
+display-name:
+  text: '&6Ability: Showtime &e&lRIGHT CLICK'
+  message: 'Showtime'
+  display: true
+lore:
+  - '&7Shoots balloons that create a'
+  - '&7large explosion on impact,'
+  - '&7dealing up to &c1,000 &7damage.'

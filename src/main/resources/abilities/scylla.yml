@@ -1,0 +1,6 @@
+name: 'scylla'
+lore:
+  - '&7Deals &c+50% &7damage to'
+  - '&7Withers. Grants &c+1 ❁ Damage'
+  - '&7and &a+1&9 ☠ Crit Chance'
+  - '&7per &CCatacombs &7level.'

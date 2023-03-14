@@ -1,0 +1,9 @@
+name: 'superiorBlood'
+displayName:
+  text: '&6Full Set Bonus: Superior Blood'
+  display: true
+lore:
+  - '&7Most of your stats are increased'
+  - '&7by &a5% &7and &6Aspect of the'
+  - '&6Dragons &7ability deals &a50%'
+  - '&7more damage'

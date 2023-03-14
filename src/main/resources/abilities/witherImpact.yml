@@ -1,0 +1,25 @@
+name: 'witherImpact'
+range: 10
+mana: 300
+ability-damage:
+  sendMessage: true
+  base-damage: 10000
+  ability-scaling: 0.3
+
+display-name:
+  text: '&6Ability: Wither Impact &e&lRIGHT CLICK'
+  message: 'Wither Impact'
+  display: true
+header: '&aScroll Abilities:'
+lore:
+  - '&7Teleport &a10 blocks &7ahead of'
+  - '&7you. Then implode dealing'
+  - '&c%damage% &7damage to nearby'
+  - '&7enemies. Also applies the wither'
+  - '&7shield scroll ability reducing'
+  - '&7damage taken and granting an'
+  - '&7absorption shield for &e5'
+  - '&7seconds.'
+variables:
+  damage:
+    default: '15,000'

@@ -1,0 +1,9 @@
+name: 'octodexterity'
+display-name:
+  text: '&6Full Set Bonus: Octodexterity'
+  display: true
+lore:
+  - '&7Every 4th strike, deal &cdouble'
+  - '&cdamage &7and apply Venom'
+  - '&7reducing healing by &240% &7for'
+  - '&b4 &7seconds.'

@@ -1,0 +1,61 @@
+texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA3MWE3NmY2NjlkYjVlZDZkMzJiNDhiYjJkYmE1NWQ1MzE3ZDdmNDUyMjVjYjMyNjdlYzQzNWNmYTUxNCJ9fX0=\""
+name: "Elephant"
+type: FARMING
+
+common:
+  abilities:
+    stomp:
+      upgrade_per_level:
+        x: 0.15
+  stats:
+    upgrade_per_level:
+      health: 1
+      mana: 0.75
+uncommon:
+  abilities:
+    stomp:
+      upgrade_per_level:
+        x: 0.15
+  stats:
+    upgrade_per_level:
+      health: 1
+      mana: 0.75
+rare:
+  abilities:
+    stomp:
+      upgrade_per_level:
+        x: 0.15
+    walkingFortress:
+      upgrade_per_level:
+        x: 0.01
+  stats:
+    upgrade_per_level:
+      health: 1
+      mana: 0.75
+epic:
+  abilities:
+    stomp:
+      upgrade_per_level:
+        x: 0.2
+    walkingFortress:
+      upgrade_per_level:  
+        x: 0.01
+  stats:
+    upgrade_per_level:
+      health: 1
+      mana: 0.75
+legendary:
+  abilities:
+    stomp:
+      upgrade_per_level:
+        x: 0.2
+    walkingFortress:
+      upgrade_per_level:
+        x: 0.01
+    trunkEfficiency:
+      upgrade_per_level:
+        x: 1.8
+  stats:
+    upgrade_per_level:
+      health: 1
+      mana: 0.75

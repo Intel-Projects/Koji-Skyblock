@@ -1,0 +1,14 @@
+name: 'meSmashHead'
+mana: 100
+debuff: 35
+cooldown: 0
+display-name:
+  text: '&6Ability: ME SMASH HEAD &e&lRIGHT CLICK'
+  message: 'ME SMASH HEAD'
+  display: true
+lore:
+  - '&7Your next attack deals &cdouble'
+  - '&cdamage &7and weakens animals,'
+  - '&7making them deal &c-35% &7damage'
+  - '&7for &a30 &7seconds.'
+  - "&8Debuff doesn't stack"

@@ -1,0 +1,14 @@
+name: 'burningSouls'
+mana: 400
+cooldown: 5
+defense: 300.0
+damage: 30000
+display-name:
+  text: '&6Ability: Burning Souls &e&lRIGHT CLICK'
+  message: 'Burning Souls'
+  display: true
+lore:
+  - '&7Gain &a+300 Defense &7for'
+  - '&a5s &7and cast vortex of flames'
+  - '&7towards enemies, dealing up to'
+  - '&c30,000 &7over &a5 &7seconds.'

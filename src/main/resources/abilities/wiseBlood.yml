@@ -1,0 +1,7 @@
+name: 'wiseBlood'
+display-name:
+  text: '&6Full Set Bonus: Wise Blood'
+  display: true
+lore:
+  - '&7Abilities have &a2/3 &7of the'
+  - '&7mana cost'

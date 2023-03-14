@@ -1,0 +1,52 @@
+texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjNhYWY3YjFhNzc4OTQ5Njk2Y2I5OWQ0ZjA0YWQxYWE1MThjZWVlMjU2YzcyZTVlZDY1YmZhNWMyZDg4ZDllIn19fQ=="
+name: "Phoenix"
+type: COMBAT
+
+epic:
+  abilities:
+    rekindle:
+      base:
+        x: 10
+      upgrade_per_level:
+        x: 0.1
+        y: 0.02
+    fourthFlare:
+      base:
+        x: 1
+        y: 2
+      upgrade_per_level:
+        x: 0.14
+        y: 0.04
+  stats:
+    base:
+      strength: 10
+      mana: 51
+    upgrade_per_level:
+      strength: 0.5
+      mana: 1
+legendary:
+  abilities:
+    rekindle:
+      base:
+        x: 10
+      upgrade_per_level:
+        x: 0.2
+        y: 0.02
+    fourthFlare:
+      base:
+        x: 1
+        y: 2
+      upgrade_per_level:
+        x: 0.14
+        y: 0.04
+    magicbird:
+      x: 0.0
+    eternalCoins:
+      x: 0.0
+  stats:
+    base:
+      strength: 10
+      mana: 51
+    upgrade_per_level:
+      strength: 0.5
+      mana: 1

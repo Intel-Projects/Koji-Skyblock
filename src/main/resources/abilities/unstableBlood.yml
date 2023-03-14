@@ -1,0 +1,7 @@
+name: 'unstableBlood'
+display-name:
+  text: '&6Full Set Bonus: Unstable Blood'
+  display: true
+lore:
+  - '&7Sometimes strike nearby mobs'
+  - "&7with lightning. It's unstable!"

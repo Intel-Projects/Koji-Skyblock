@@ -1,0 +1,10 @@
+name: 'dragonRage'
+mana: 100
+display-name:
+  text: '&6Ability: Dragon Rage &e&lRIGHT CLICK'
+  message: 'Dragon Rage'
+  display: true
+lore:
+  - '&7All Monsters in front of you'
+  - '&7take &a700 &7damage. Hit'
+  - '&7monsters take large knockback'

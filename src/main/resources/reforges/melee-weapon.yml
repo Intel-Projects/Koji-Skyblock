@@ -1,0 +1,351 @@
+GENTLE:
+  name: Gentle
+  very_special:
+    strength: 20.0
+    attack_speed: 30.0
+  special:
+    strength: 20.0
+    attack_speed: 30.0
+  divine:
+    strength: 20.0
+    attack_speed: 30.0
+  mythic:
+    strength: 20.0
+    attack_speed: 30.0
+  legendary:
+    strength: 15.0
+    attack_speed: 25.0
+  epic:
+    strength: 10.0
+    attack_speed: 20.0
+  rare:
+    strength: 7.0
+    attack_speed: 15.0
+  uncommon:
+    strength: 5.0
+    attack_speed: 10.0
+  common:
+    strength: 3.0
+    attack_speed: 8.0
+ODD:
+  name: Odd
+  very_special:
+    crit_damage: 40.0
+    crit_chance: 30.0
+    mana: -75.0
+  special:
+    crit_damage: 40.0
+    crit_chance: 30.0
+    mana: -75.0
+  divine:
+    crit_damage: 40.0
+    crit_chance: 30.0
+    mana: -75.0
+  mythic:
+    crit_damage: 40.0
+    crit_chance: 30.0
+    mana: -75.0
+  legendary:
+    crit_damage: 30.0
+    crit_chance: 25.0
+    mana: -50.0
+  epic:
+    crit_damage: 22.0
+    crit_chance: 20.0
+    mana: -32.0
+  rare:
+    crit_damage: 15.0
+    crit_chance: 15.0
+    mana: -18.0
+  uncommon:
+    crit_damage: 15.0
+    crit_chance: 15.0
+    mana: -10.0
+  common:
+    crit_damage: 10.0
+    crit_chance: 12.0
+    mana: -5.0
+FAST:
+  name: Fast
+  very_special:
+    attack_speed: 60.0
+  special:
+    attack_speed: 60.0
+  divine:
+    attack_speed: 60.0
+  mythic:
+    attack_speed: 60.0
+  legendary:
+    attack_speed: 50.0
+  epic:
+    attack_speed: 40.0
+  rare:
+    attack_speed: 30.0
+  uncommon:
+    attack_speed: 20.0
+  common:
+    attack_speed: 10.0
+FAIR:
+  name: Fair
+  very_special:
+    crit_damage: 12.0
+    strength: 12.0
+    attack_speed: 12.0
+    crit_chance: 12.0
+    mana: 12.0
+  special:
+    crit_damage: 12.0
+    strength: 12.0
+    attack_speed: 12.0
+    crit_chance: 12.0
+    mana: 12.0
+  divine:
+    crit_damage: 12.0
+    strength: 12.0
+    attack_speed: 12.0
+    crit_chance: 12.0
+    mana: 12.0
+  mythic:
+    crit_damage: 12.0
+    strength: 12.0
+    attack_speed: 12.0
+    crit_chance: 12.0
+    mana: 12.0
+  legendary:
+    crit_damage: 10.0
+    strength: 10.0
+    attack_speed: 10.0
+    crit_chance: 10.0
+    mana: 10.0
+  epic:
+    crit_damage: 7.0
+    strength: 7.0
+    attack_speed: 7.0
+    crit_chance: 7.0
+    mana: 7.0
+  rare:
+    crit_damage: 4.0
+    strength: 4.0
+    attack_speed: 4.0
+    crit_chance: 4.0
+    mana: 4.0
+  uncommon:
+    crit_damage: 3.0
+    strength: 3.0
+    attack_speed: 3.0
+    crit_chance: 3.0
+    mana: 3.0
+  common:
+    crit_damage: 2.0
+    strength: 2.0
+    attack_speed: 2.0
+    crit_chance: 2.0
+    mana: 2.0
+EPIC:
+  name: Epic
+  very_special:
+    crit_damage: 45.0
+    strength: 50.0
+    attack_speed: 15.0
+  special:
+    crit_damage: 45.0
+    strength: 50.0
+    attack_speed: 15.0
+  divine:
+    crit_damage: 45.0
+    strength: 50.0
+    attack_speed: 15.0
+  mythic:
+    crit_damage: 45.0
+    strength: 50.0
+    attack_speed: 15.0
+  legendary:
+    crit_damage: 35.0
+    strength: 40.0
+    attack_speed: 10.0
+  epic:
+    crit_damage: 27.0
+    strength: 32.0
+    attack_speed: 7.0
+  rare:
+    crit_damage: 20.0
+    strength: 25.0
+    attack_speed: 4.0
+  uncommon:
+    crit_damage: 15.0
+    strength: 20.0
+    attack_speed: 2.0
+  common:
+    crit_damage: 10.0
+    strength: 15.0
+    attack_speed: 1.0
+SHARP:
+  name: Sharp
+  very_special:
+    crit_damage: 90.0
+    crit_chance: 25.0
+  special:
+    crit_damage: 90.0
+    crit_chance: 25.0
+  divine:
+    crit_damage: 90.0
+    crit_chance: 25.0
+  mythic:
+    crit_damage: 90.0
+    crit_chance: 25.0
+  legendary:
+    crit_damage: 75.0
+    crit_chance: 20.0
+  epic:
+    crit_damage: 55.0
+    crit_chance: 17.0
+  rare:
+    crit_damage: 40.0
+    crit_chance: 14.0
+  uncommon:
+    crit_damage: 30.0
+    crit_chance: 12.0
+  common:
+    crit_damage: 20.0
+    crit_chance: 10.0
+HEROIC:
+  name: Heroic
+  very_special:
+    strength: 50.0
+    attack_speed: 7.0
+    mana: 125.0
+  special:
+    strength: 50.0
+    attack_speed: 7.0
+    mana: 125.0
+  divine:
+    strength: 50.0
+    attack_speed: 7.0
+    mana: 125.0
+  mythic:
+    strength: 50.0
+    attack_speed: 7.0
+    mana: 125.0
+  legendary:
+    strength: 40.0
+    attack_speed: 5.0
+    mana: 100.0
+  epic:
+    strength: 32.0
+    attack_speed: 3.0
+    mana: 80.0
+  rare:
+    strength: 25.0
+    attack_speed: 2.0
+    mana: 65.0
+  uncommon:
+    strength: 20.0
+    attack_speed: 2.0
+    mana: 50.0
+  common:
+    strength: 15.0
+    attack_speed: 1.0
+    mana: 40.0
+SPICY:
+  name: Spicy
+  very_special:
+    crit_damage: 100.0
+    strength: 12.0
+    attack_speed: 15.0
+    crit_chance: 1.0
+  special:
+    crit_damage: 100.0
+    strength: 12.0
+    attack_speed: 15.0
+    crit_chance: 1.0
+  divine:
+    crit_damage: 100.0
+    strength: 12.0
+    attack_speed: 15.0
+    crit_chance: 1.0
+  mythic:
+    crit_damage: 100.0
+    strength: 12.0
+    attack_speed: 15.0
+    crit_chance: 1.0
+  legendary:
+    crit_damage: 80.0
+    strength: 10.0
+    attack_speed: 10.0
+    crit_chance: 1.0
+  epic:
+    crit_damage: 60.0
+    strength: 7.0
+    attack_speed: 7.0
+    crit_chance: 1.0
+  rare:
+    crit_damage: 45.0
+    strength: 4.0
+    attack_speed: 4.0
+    crit_chance: 1.0
+  uncommon:
+    crit_damage: 35.0
+    strength: 3.0
+    attack_speed: 2.0
+    crit_chance: 1.0
+  common:
+    crit_damage: 25.0
+    strength: 2.0
+    attack_speed: 1.0
+    crit_chance: 1.0
+LEGENDARY:
+  name: Legendary
+  very_special:
+    crit_damage: 36.0
+    strength: 32.0
+    attack_speed: 15.0
+    crit_chance: 18.0
+    mana: 35.0
+  special:
+    crit_damage: 36.0
+    strength: 32.0
+    attack_speed: 15.0
+    crit_chance: 18.0
+    mana: 35.0
+  divine:
+    crit_damage: 36.0
+    strength: 32.0
+    attack_speed: 15.0
+    crit_chance: 18.0
+    mana: 35.0
+  mythic:
+    crit_damage: 36.0
+    strength: 32.0
+    attack_speed: 15.0
+    crit_chance: 18.0
+    mana: 35.0
+  legendary:
+    crit_damage: 28.0
+    strength: 25.0
+    attack_speed: 10.0
+    crit_chance: 15.0
+    mana: 25.0
+  epic:
+    crit_damage: 22.0
+    strength: 18.0
+    attack_speed: 7.0
+    crit_chance: 12.0
+    mana: 18.0
+  rare:
+    crit_damage: 15.0
+    strength: 12.0
+    attack_speed: 5.0
+    crit_chance: 9.0
+    mana: 12.0
+  uncommon:
+    crit_damage: 10.0
+    strength: 7.0
+    attack_speed: 3.0
+    crit_chance: 7.0
+    mana: 8.0
+  common:
+    crit_damage: 5.0
+    strength: 3.0
+    attack_speed: 2.0
+    crit_chance: 5.0
+    mana: 5.0

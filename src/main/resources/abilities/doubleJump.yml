@@ -1,0 +1,9 @@
+name: 'doubleJump'
+mana: 40
+power: 1.5
+display-name:
+  text: '&6Ability: Double Jump'
+  message: 'Double Jump'
+  display: true
+lore:
+  - '&7Allows you to double jump!'

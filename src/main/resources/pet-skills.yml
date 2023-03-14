@@ -1,0 +1,426 @@
+foraging:
+   foragingWisdomBoost:
+      - "&7Boosts Foraging exp by &a%foragingWisdomBoost%&7."
+   goodHeart:
+      - "&7Regen &c%goodHeartX% Health"
+      - "&7per second"
+   higherGround:
+      - "Grants &c+%higherGroundX% Strength &7and"
+      - "&9+%higherGroundY% Crit Damage &7when mid air."
+   longNeck:
+      - "&7See enemies from afar and gain &a%longNeckX% &7dodge chance."
+   primalForce:
+      - "&7Adds &f+%primalForceX% Damage"
+      - "&7to your weapons."
+   firstPounce:
+      - "&7Increases damage dealt by"
+      - "&c+%firstPounceX% &7on your first hit on a mob."
+   kingOfTheJungle:
+      - "&7Deal &a%kingOfTheJungleX% Damage &7against mobs below level 80."
+   treeborn:
+      - "&7Increases double drop rates for logs by &a%treebornX&7."
+   vineSwing:
+      - "&7Gain &f+%vineSwingX% Speed &7while in The Park."
+   evolvedAxes:
+      - "&7Reduce the cooldown of Jungle Axe and Treecapitator by &a%evolvedAxesX%&7."
+   treeHugger:
+      - "&7Foraging Minions work &a%treeHuggerX% &7faster while on your island."
+   treeEssence:
+      - "Gain a &a%treeEssenceX% &7chance to get"
+      - "&7exp from breaking a log."
+mining:
+   tunneller:
+      - "&7The Armadillo breaks all stone"
+      - "&7or ore in its path while you are"
+      - "&7riding it in the &3Crystal"
+      - "&3Hollows &7using your held item."
+   earthSurfer:
+      - "&7Every &a%earthSurferX% &7seconds, the next"
+      - "&7gemstone you mine gives &a2x"
+      - "&7drops"
+   mobileTank:
+      - "&7For every %a%mobileTankX% &7Defense, gain"
+      - "&f+1✦ Speed &7and &6+1⸕ Mining"
+      - "&6Speed&7."
+   trueDefenseBoost:
+      - "&7Grants +&f%trueDefenseBoostX%❂ True"
+      - "&fDefense&7."
+   miningWisdomBoost:
+      - "&7Grants &2+%miningWisdomBoost%☯ Mining"
+      - "&2Wisdom&7."
+   dexterity:
+      - "&7Gives permanent haste III."
+   candyLover:
+      - "&7Increases drop chance of"
+      - "&7candies from mobs by &a%candyLoverX%%&7."
+   nightmare:
+      - "&7During night, gain &a+%nightmareX% &b✎"
+      - "&bIntelligence&7, &a%nightmareY% &f✦"
+      - "&fSpeed&7, and &aNight Vision&7."
+   wingsOfSteel:
+      - "&7Deals &a+%wingsOfSteelX%% &7damage to"
+      - "&6Spooky &7enemies during the"
+      - "&6Spooky Festival."
+   sonar:
+      - "&7+&a%sonarX%% chance to fish up"
+      - "&7spooky sea creatures."
+   moreStonks:
+      - "&7Gain more exp orbs for"
+      - "&7breaking end stone and gain a"
+      - "&7+&a+%moreStonksX%% &7chance to get an extra"
+      - "&7block dropped."
+   dailyCommuter:
+      - "&9Transmission Abilities"
+      - "&7cost &a%dailyCommuterX%% &7less mana."
+   miteBait:
+      - "&7Gain a &a%miteBaitX%% chance to dig"
+      - "&7up a bonus &cNest Endermite"
+      - "&7per &d+1♣ Pet Luck &8(Stacks"
+      - "&8above 100%)."
+   sacrificer:
+      - "&7Increases the odds of rolling"
+      - "&7for bonus items in the"
+      - "&cDraconic Altar &7by &a%sacrificerX%%&7."
+   mithrilAffinity:
+      - "&7Gain &a%mithrilAffinityX% &6⸕ Mining Speed"
+      - "&7when mining &eMithril."
+   theSmellOfPowder:
+      - "&7Gain &a%theSmellOfPowderX%% &7more &2Mithril"
+      - "&2Powder &7while mining."
+   dangerAverse:
+      - "&7Increases your combat stats by"
+      - "&a+%dangerAverseX%% &7on mining islands."
+   rideable:
+      - "&7Right-click your summoned pet"
+      - "&7to ride it!"
+   sailingStone:
+      - "&7Sneak to move your rock to"
+      - "&7your location (15s cooldown)."
+   fortify:
+      - "&7While sitting on your rock,"
+      - "&7gain +&a%fortifyX%% &7defense."
+   steadyGround:
+      - "&7While sitting on your rock,"
+      - "&7gain +&a%steadyGroundX%% &7damage."
+   grounded:
+      - "&7Gain &6+%groundedX%☘ Mining"
+      - "&6Fortune&7."
+   burrowing:
+      - "&7Grants a &a+%burrowingX%% &7chance to"
+      - "&7find treasure while mining."
+   wormhole:
+      - "&7Gives a &a%wormholeX%% &7chance to mine"
+      - "&72 adjacent stone or hard stone."
+   gemstonePower:
+      - "&7Gain &a+%gemstonePowerX%% &7more"
+      - "&dGemstone Powder&7."
+   strongerBones:
+      - "&7Take &a%strongerBonesX%% &7less damage from"
+      - "&7skeletons."
+   witherBlood:
+      - "&7Deal &a%witherBloodX%% &7more damage to"
+      - "&7wither mobs "
+   deathsTouch:
+      - "&7Upon hitting an enemy inflict"
+      - "&7the wither effect for &a%deathsTouchX%%"
+      - "&7damage over 3 seconds."
+      - "&8Does not stack"
+   redSandEnjoyer:
+      - "&7Red Sand minions work &a%redSandEnjoyer%%"
+      - "&7faster while on your island."
+   slowMoving:
+      - "&7Converts all &f✦ Speed &7over"
+      - "&7100 into &6☘ Mining Fortune"
+      - "&7for non-ores at &a%slowMovingX%%"
+      - "&7efficiency. Current Bonus:"
+      - "&6+%slowMovingY%☘"
+combat:
+   combatWisdomBoost:
+      - "&7Boosts Combat exp by &a%combatWisdomBoostX%"
+   hunter:
+      - "&7Increases your speed and speed"
+      - "&7cap by +&a%hunterX%."
+   omen:
+      - "&7Grants &a%omenX% &d♣ Pet Luck&7."
+   supernatural:
+      - "&7Grants &a%supernaturalX% &b✯ Magic"
+      - "&bFind&7."
+   netherEmbodiment:
+      - "&7Increases all stats by &a%netherEmbodimentX%%"
+      - "&7while on the Crimson Isle."
+   blingArmor:
+      - "&7Upgrades &cBlaze Armor stats"
+      - "&7and ability by &a%blingArmorX%%&7."
+   fusionStylePotato:
+      - "&7Double effects of hot potato"
+      - "&7books."
+   endStrike:
+     - "&7Deal &a%endStrikeX%% &7more damage to"
+     - "&7end mobs."
+   oneWithTheDragon:
+     - "&7Buffs the Aspect of the"
+     - "&7Dragons sword by &a%oneWithTheDragonX% &c❁ Damage"
+     - "&7and &a%oneWithTheDragonY% &c❁ Strength."
+   superior:
+      - "&7Increase all stats by &a%superiorX%%"
+   enderian:
+      - "&7Take &a%enderianX% &7less damage from"
+      - "&7end monsters."
+   teleportSavvy:
+      - "&7Buffs the Transmission"
+      - "&7abilities granting &a%teleportSavvyX% &7weapon"
+      - "&7damage for 5s on use"
+   zealotMadness:
+      - "&7Increases your odds to find a"
+      - "&7special Zealot &7by &a%zealotMadnessX%&7."
+   amplifiedHealing:
+      - "&7Grants &1+%amplifiedHealingX% Vitality&7,"
+   zombieArm:
+      - "&7Increases the health and range of the Zombie sword by &a%zombieArmX%&7."
+   reaperSoul:
+      - "&7Increases the health and lifespan of the Reaper Scythe zombies by &a%reaperSoulX%&7."
+   lastStand:
+      - "&7While less than 15% &cHealth&7,"
+      - "&7deal &f%lastStandX% &7more Damage."
+   ricochet:
+      - "&7Your iron plating causes &a%ricochetX%"
+      - "&7of attacks to ricochet and hit the attacker"
+   toss:
+      - "&7Every 5 hits, throw the enemy into the"
+      - "&7air and deal &a%tossX% &7damage (10s cooldown)."
+   odyssey:
+      - "&7While Diana's Mythological Ritual is active,"
+      - "&7mythological creatures you find scale depending on your Griffin's rarity. "
+   legendaryConstitution:
+      - "&7Gain permanent &cRegeneration VII &7and &7Strength VIII."
+   perpetualEmpathy:
+      - "&7Heal nearby players for &a%perpetualEmpathyX% &7of the"
+      - "&7damage you receive. (excludes other griffins)"
+   kingOfKings:
+      - "&7gain &c%kingOfKingsX% Strength &7when you are above 85% health."
+   rideable:
+      - "&7Right-click your summoned pet to ride it!"
+   gallop:
+      - "&7Increases the speed of your mount by &a%gallopX%&7."
+   rideIntoBattle:
+      - "&7While riding your horse, gain &a+%rideIntoBattleX% bow damage&7."
+   scavenger:
+      - "&7Gain &6+%scavengerX% coins &7per monster kill."
+   finder:
+      - "&7Increases the chance for monsters to drop their armor by &a%finderX%&7. "
+   furyClaws:
+      - "&7Grants &e+%furyClawsX% Bonus Attack Speed&7."
+   slimyMinions:
+      - "&7Slime Minions work &a%slimyMinionsX% &7faster while on your island."
+   saltBlade:
+      - "&7Deal &a%saltBladeX% &7more damage to Slimes."
+   hotEmber:
+      - "&7Buffs the stats of Ember Armor by %hotEmberX%&7."
+   rekindle:
+      - "&7Before death, become &eimmune"
+      - "&7and gain &c%rekindleX% Strength"
+      - "&7for &a%rekindleY% &7seconds"
+      - "&83 minutes cooldown"
+   fourthFlare:
+      - "&7On 4th melee strike, &6ignite"
+      - "&7mobs, dealing &c%fourthFlareX%&7 your"
+      - "&9Crit Damage &7each second for"
+      - "&a%fourthFlareY% &7seconds&7."
+   magicBird:
+      - "&7You may always fly on your"
+      - "&7private island."
+   eternalCoins:
+      - "&7Don't lose coins on death."
+   baconFarmer:
+      - "&7Pig Minions work &a%baconFarmerX% &7faster while on your island."
+   porkMaster:
+      - "&7Buffs the Pigman Sword by &f%porkMasterX% Damage"
+      - "&7and &c%porkMasterY% Strength&7."
+   giantSlayer:
+      - "&7Deal &a%giantSlayerX% &7more damage to mobs Level 100 and up."
+   boneArrows:
+      - "&7Increases arrow damage by &f%boneArrowsX%&7."
+   combo:
+      - "&7Gain a combo stack for every bow hit"
+      - "&7granting &c+3 Strength&7. Max &a%comboX% &7stacks."
+      - "&7Stacks disappear after 8 seconds."
+   skeletalDefense:
+      - "&7Your skeleton shoots an arrow for"
+      - "&760x your &9Crit damage &7when a mob"
+      - "&7gets close to you. (15 sec cooldown)"
+   blizzard:
+      - "&7Slow all enemies within &a%blizzardX% &7blocks."
+   frostbite:
+      - "&7Your freezing aura slows enemy attacks"
+      - "&7causing you to take &a%frostbiteX% &7reduced damage."
+   snowCannon:
+      - "&7Your snowman fires a snowball dealing 5x your"
+      - "&cStrength when a mob gets close to you. (1s cooldown)"
+   oneWithTheSpider:
+      - "&7Gain &c%oneWithTheSpiderX% Strength &7for"
+      - "&7every nearby Spider. (Max 10 spiders)"
+   webWeaver:
+      - "&7Upon hitting a monster it becomes slowed by &a%webWeaverX%&7."
+   spiderWhisperer:
+      - "&7Spider and Tarantula minions work faster &a%spiderWhispererX% &7while on your island."
+   spiritAssistance:
+      - "&7Spawns and assists you when you are a ghost in dungeons."
+   spiritLeap:
+      - "&7Grants a 10% chance for mini-bosses"
+      - "&7in dungeons to drop 5 Spirit Leap Pearls."
+   spiritCooldowns:
+      - "&7Reduces the cooldown of your ghost abilities in dungeons by 5.5%. "
+   webbedCells:
+      - "&7Anti-healing is &a%webbedCellsX% &7less effective against you."
+   eightLegs:
+      - "&7Decreases the &bMana Cost &7of &5Spider &7and &5Tarantula boots &7by &a%ghtLgsX%&7."
+   arachnidSlayer:
+      - "&7Gain &a+%arachnidSlayerX% &7more combat xp from spiders."
+   mercilessSwipe:
+      - "&7Gain &c%mercilessSwipeX% Ferocity&7."
+   hemorrhage:
+      - "&7Melee attacks reduce healing by &a%hemorrhageX% &7for 10s."
+   apexPredator:
+      - "&7Deal &a+%apexPredatorX% &7damage against"
+      - "&7targets with no other mobs within 15 blocks."
+   turtleTactics:
+      - "&7Gain &a+%turtleTacticsX% Defense."
+   geniusAmniote:
+      - "&7Gain &a+%geniusAmnioteX% Defense &7and regen"
+      - "&c+%geniusAmnioteY% Health &7when near or in water."
+   unflippable:
+      - "&7Gain immunity to knockback."
+   alphaDog:
+      - "&7Take &a%alphaDogX% &7less damage from wolves."
+   packLeader:
+      - "&7Gain &9%packLeaderX% Crit damage for every nearby wolf."
+   chomp:
+      - "&c+%chompX% Health &7per Zombie kill."
+   rottenBlade:
+      - "&7Deal &a%rottenBladeX% &7more damage to zombies."
+   livingDead:
+      - "&7Increases the &bDefense &7of all undead armor sets by &a%livingDeadX%&7."
+farming:
+   hive:
+      - "&7Gain &b%hiveX%✎ Intelligence &7and"
+      - "&c%hiveY%❁ Strength &7for each"
+      - "&7nearby bee."
+      - "&8Max 15 bees"
+   busyBuzzBuzz:
+      - "&7Has &a%busyBuzzBuzzX%% &7chance for"
+      - "&7flowers to drop an extra one."
+   weaponizedHoney:
+      - "&7Gain &a%weaponizedHoneyX%% &7of received"
+      - "&7damage as &6❤ Absorption."
+   lightFeet:
+      - "&7Reduces fall damage by &a%lightFeetX%%&7."
+   eggstra:
+      - "&7Killing chickens has a &a%eggstraX%%"
+      - "&7chance to drop an egg."
+   mightyChickens:
+      - "&7Chicken Minions work &a%mightyChickensX%%"
+      - "&7faster while on your island."
+   stomp:
+      - "&7Gain &a%stompX%❈ Defense &7for every"
+      - "&f100 ✦ Speed&7."
+   walkingFortress:
+      - "&7Gain &c%walkingFortressX%❤ Health &7for every"
+      - "&a10 ❈ Defense&7."
+   trunkEfficiency:
+      - "&7Grants +&a%trunkEfficiencyX% &6☘ Farming"
+      - "&6Fortune, &7which increases your"
+      - "&7chance for multiple drops."
+   rideable:
+      - "&7Right-click your summoned pet to ride it!"
+   run:
+      - "&7Increase the speed of your"
+      - "&7mount by &a%runX%%&7."
+   sprint:
+      - "&7While holding an Enchanted"
+      - "&7Carrot on a Stick, increase the"
+      - "&7speed of your mount by &a%sprintX%%&7."
+   trample:
+      - "&7While on your private island,"
+      - "&7break all the crops your pig rides over."
+   happyFeet:
+      - "&7Jump Potions also give +%happyFeetX% Speed&7."
+   farmingWisdomBoost:
+      - "&7Boosts your Farming exp by &a%farmingWisdomBoostX%"
+   efficientFarming:
+      - "&7Farming minions work &a%efficientFarmingX%% &7faster while on your island."
+fishing:
+   fishingWisdomBoost:
+      - "&7Fishing Exp Boost:"
+      - "&7Boosts your Fishing experience by &a%fshngXpBstX%&7."
+   coldBreeze:
+      - "&7Gives &a%coldBreezeX% &c❁ Strength &7and"
+      - "&9☠ Crit Damage &7when near"
+      - "&7snow. "
+   iceShields:
+      - "&7Gain &a%iceShieldsX% &7of your strength"
+      - "&7as &a❈ Defense&7."
+   yetiFury:
+      - "&7Buff the Yeti Sword by &a%yetiFuryX%"
+      - "&c❁ Damage &7and &b✎"
+      - "&bIntelligence&7."
+   ingest:
+      - "&7All Potions heal &c+%ingestX% Health&7."
+   bulk:
+      - "&7Gain &a+%bulkX% Defense &7per &c%bulkY% Max Health&7."
+   archimedes:
+      - "&7Gain &c+%archimedesX% Max Health&7."
+   podTactics:
+      - "&7Increases your fishing speed by &a%podTacticsX% &7for each nearby player up to &a%podTacticsY%&7."
+   echolocation:
+      - "&7Increases sea creatures catch chance by &a%echolocationX%&7."
+   splashSurprise:
+      - "&7Stun Sea creatures for 5s after fishing them up."
+   quickReel:
+      - "&7Increases fishing speed by &a%quickReelX%&7."
+   waterBender:
+      - "&7Gives &c%waterBenderX% Strength &7and &aDefense &7when near water."
+   deepSeaDiver:
+      - "&7Increases the stats of Diver's Armor by &a%deepSeaDiverX%&7."
+   bloodScent:
+      - "&7Deal up to &a%bloodScentX% Damage &7based on the enemy's missing health."
+   enhancedScales:
+      - "&7Increases the stats of Shark Armor by &a%enhancedScalesX%&7."
+   feedingFrenzy:
+      - "&7On kill gain &a%feedingFrenzyX% Damage &7and &fSpeed &7for 5 seconds."
+   moreInk:
+      - "&7Gain a &a%moreInkX% &7chance to get double drops from squids."
+   inkSpeciality:
+      - "&7Buffs Ink Wand by &a%inkSpecialityX% Damage and &c%inkSpecialityX% Strength67."
+enchanting:
+   lazerbeam:
+     - "&7Zaps your enemies for &a%lazerbeamX%"
+     - "&7Ã— your &bIntelligence &7every"
+     - "&a3s."
+   enchantingWisdomBoost:
+      - "&7Boosts your Enchanting exp "
+      - "&7by &a%enchantingWisdomBoostX%&7."
+   manaPool:
+      - "&7Regenerate &a%manaPoolX% &7extra &bmana&7,"
+      - "&7doubled when near or in water. "
+alchemy:
+   radiantRegeneration:
+      - "&7While in Dungeons, increases your base health regen"
+      - "&7by &a%radiantRegenerationX% &7and heals players within 8 blocks by up to 10 hp/s."
+   hungryHealer:
+      - "&7While in Dungeons, for every 1000 you heal teammates apply the"
+      - "&aenchanted golden apple &7effect to all players within 10 blocks. (10 s cooldown)"
+   powerfulPotions:
+      - "&7While in dungeons, increase the effectiveness of"
+      - "&cInstant Health &7and &bMana &asplash potions &7by &a%powerfulPotionsX%&7."
+   flamboyant:
+      - "&7Adds &a%flamboyantX% &7levels to IntimidationAccessories."
+   repeat:
+      - "&7Boosts Potion duration by &a%repeatX%&7."
+   birdDiscourse:
+      - "&7Gives &c%birdDiscourseX% Strength &7to players within 20 blocks."
+   manaSaver:
+      - "&7Reduces the &bmana cost &7of abilities by &a%manaSaverX%&7."
+   overheal:
+      - "&7Gives a &a%overhealX% shield &7after not taking damage for 10s."
+   dungeonWizard:
+      - "&7Increases your total &bMana &7by &a%dungeonWizardX% &7while in dungeons."
